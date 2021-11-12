@@ -1,0 +1,178 @@
+abs call:[fabsf] noreturn:[fabsf]
+acos call:[acosf] noreturn:[acosf]
+asin call:[asinf] noreturn:[asinf]
+atan call:[atanf] noreturn:[atanf]
+atan2 call:[atan2f] noreturn:[atan2f]
+ceil call:[ceilf] noreturn:[ceilf]
+cos call:[cosf] noreturn:[cosf]
+cosh call:[coshf] noreturn:[coshf]
+exp call:[expf] noreturn:[expf]
+fabs call:[fabsf] noreturn:[fabsf]
+floor call:[floorf] noreturn:[floorf]
+fmod call:[fmodf] noreturn:[fmodf]
+frexp call:[frexpf] noreturn:[frexpf]
+ldexp call:[ldexpf] noreturn:[ldexpf]
+log call:[logf] noreturn:[logf]
+log10 call:[log10f] noreturn:[log10f]
+modf call:[modff] noreturn:[modff]
+pow call:[powf] noreturn:[powf]
+pow call:[pow] noreturn:[pow]
+sin call:[sinf] noreturn:[sinf]
+sinh call:[sinhf] noreturn:[sinhf]
+sqrt call:[sqrtf] noreturn:[sqrtf]
+tan call:[tanf] noreturn:[tanf]
+tanh call:[tanhf] noreturn:[tanhf]
+abs call:[fabs] noreturn:[fabs]
+pow call:[pow] noreturn:[pow]
+slice
+slice
+slice
+slice
+start
+size
+stride
+gslice
+gslice
+start
+size
+stride
+operator* call:[retval]
+operator* call:[retval]
+operator* call:[retval]
+operator/ call:[retval]
+operator/ call:[retval]
+operator/ call:[retval,size]
+operator% call:[retval]
+operator% call:[retval]
+operator% call:[retval,size]
+operator+ call:[retval]
+operator+ call:[retval]
+operator+ call:[retval,size]
+operator- call:[retval]
+operator- call:[retval]
+operator- call:[retval,size]
+operator^ call:[retval]
+operator^ call:[retval]
+operator^ call:[retval,size]
+operator& call:[retval]
+operator& call:[retval]
+operator& call:[retval,size]
+operator| call:[retval]
+operator| call:[retval]
+operator| call:[retval,size]
+operator<< call:[retval]
+operator<< call:[retval]
+operator<< call:[retval,size]
+operator>> call:[retval]
+operator>> call:[retval]
+operator>> call:[retval,size]
+operator&& call:[retval,size]
+operator&& call:[retval,size]
+operator&& call:[retval,size]
+operator|| call:[retval,size]
+operator|| call:[retval,size]
+operator|| call:[retval,size]
+operator== call:[retval,size]
+operator== call:[retval,size]
+operator== call:[retval,size]
+operator!= call:[retval,size]
+operator!= call:[retval,size]
+operator!= call:[retval,size]
+operator< call:[retval,size]
+operator< call:[retval,size]
+operator< call:[retval,size]
+operator> call:[retval,size]
+operator> call:[retval,size]
+operator> call:[retval,size]
+operator<= call:[retval,size]
+operator<= call:[retval,size]
+operator<= call:[retval,size]
+operator>= call:[retval,size]
+operator>= call:[retval,size]
+operator>= call:[retval,size]
+min call:[retval,size]
+max call:[retval,size]
+abs call:[abs,retval,size] noreturn:[abs]
+acos call:[acos,retval,size] noreturn:[acos]
+asin call:[asin,retval,size] noreturn:[asin]
+atan call:[atan,retval,size] noreturn:[atan]
+atan2 call:[atan2,retval,size] noreturn:[atan2]
+atan2 call:[atan2,retval,size] noreturn:[atan2]
+atan2 call:[atan2,retval,size] noreturn:[atan2]
+cos call:[cos,retval,size] noreturn:[cos]
+cosh call:[cosh,retval,size] noreturn:[cosh]
+exp call:[exp,retval,size] noreturn:[exp]
+log call:[log,retval,size] noreturn:[log]
+log10 call:[log10,retval,size] noreturn:[log10]
+pow call:[pow,retval,size] noreturn:[pow]
+pow call:[pow,retval,size] noreturn:[pow]
+pow call:[pow,retval,size] noreturn:[pow]
+sin call:[retval,sin,size] noreturn:[sin]
+sinh call:[retval,sinh,size] noreturn:[sinh]
+sqrt call:[retval,size,sqrt] noreturn:[sqrt]
+tan call:[retval,size,tan] noreturn:[tan]
+tanh call:[retval,size,tanh] noreturn:[tanh]
+valarray < unsigned long long >
+valarray < unsigned long long >
+valarray < unsigned long long >
+valarray < unsigned long long >
+valarray < unsigned long long >
+valarray < unsigned long long > call:[start,stride]
+valarray < unsigned long long >
+operator=
+operator=
+operator= call:[start,stride]
+operator[]
+operator[]
+operator[] call:[retval,size,start,stride]
+operator[]
+operator+ call:[retval]
+operator- call:[retval]
+operator~ call:[retval]
+operator! call:[retval]
+operator*=
+operator/=
+operator%=
+operator+=
+operator-=
+operator^=
+operator&=
+operator|=
+operator<<=
+operator>>=
+operator*=
+operator/=
+operator%=
+operator+=
+operator-=
+operator^=
+operator|=
+operator&=
+operator<<=
+operator>>=
+size
+sum call:[retval]
+min call:[retval]
+max call:[retval]
+shift call:[int,long,retval] noreturn:[int]
+cshift call:[int,long,retval] noreturn:[int]
+apply call:[func,retval] noreturn:[func]
+apply call:[func,retval] noreturn:[func]
+resize
+operator= call:[size,start,stride]
+operator= call:[size,start,stride]
+fill call:[size,start,stride]
+operator*= call:[size,start,stride]
+operator/= call:[size,start,stride]
+operator%= call:[size,start,stride]
+operator+= call:[size,start,stride]
+operator-= call:[size,start,stride]
+operator^= call:[size,start,stride]
+operator&= call:[size,start,stride]
+operator|= call:[size,start,stride]
+operator<<= call:[size,start,stride]
+operator>>= call:[size,start,stride]
+slice_array < unsigned long long >
+slice_array < unsigned long long >
+slice_array < unsigned long long >
+operator=

@@ -1,5 +1,5 @@
 #include "menu.h"
-
+Menu::Menu(){}
 Menu::Menu  (Elegoo_GFX  *display, 
         int16_t h, int16_t w, 
         int8_t textSize, 
@@ -26,15 +26,19 @@ Menu::Menu  (Elegoo_GFX  *display,
 Menu::~Menu()
 {
 }
-void Menu::draw() {
+void Menu::draw(){
     if(_location == BOTTOM)
     {   
+        _x=0;
+        _y = _display->height()-_h;
         _display->drawRect(0,_display->height()-_h,_w,_h, _borderColor);
         _display->fillRect(1,_display->height()-_h-1,_w-2,_h-2, _fillColor);
 
     }
     else
     {
+        _x=0;
+        _y=0;
         _display->drawRect(0,0,_w,_h,_borderColor);
         _display->fillRect(1,1,_w-2,_h-2, _fillColor);
         

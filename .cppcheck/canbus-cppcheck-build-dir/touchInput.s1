@@ -1,0 +1,3 @@
+touchInput call:[_tScreen] noreturn:[_tScreen]
+touchInput
+check call:[digitalWrite,getPoint,height,map,pinMode,width] noreturn:[map]

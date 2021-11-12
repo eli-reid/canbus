@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="297116197">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;TSPoint::z&apos; is not initialized in the constructor." verbose="Member variable &apos;TSPoint::z&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/TouchScreen/TouchScreen.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\TouchScreen\TouchScreen.cpp" line="19" column="10"/>
+            <symbol>TSPoint::z</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="TSPoint" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/TouchScreen/TouchScreen.h" line="10" col="1" hash="14228648981424540333"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getPoint" lineNumber="51"/>
+    <functiondecl functionName="readTouchX" lineNumber="179"/>
+    <functiondecl functionName="readTouchY" lineNumber="194"/>
+    <functiondecl functionName="pressure" lineNumber="209"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="TSPoint"/>
+    <functioncall functionName="TouchScreen"/>
+    <functioncall functionName="_xm"/>
+    <functioncall functionName="_xp"/>
+    <functioncall functionName="_ym"/>
+    <functioncall functionName="_yp"/>
+    <functioncall functionName="analogRead"/>
+    <functioncall functionName="digitalPinToBitMask"/>
+    <functioncall functionName="digitalPinToPort"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="portOutputRegister"/>
+    <functioncall functionName="readTouchX"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rtouch"/>
+    <functioncall functionName="rxplate"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="x0"/>
+    <functioncall functionName="xm"/>
+    <functioncall functionName="xm_port"/>
+    <functioncall functionName="xp"/>
+    <functioncall functionName="xp_port"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="y0"/>
+    <functioncall functionName="ym"/>
+    <functioncall functionName="ym_port"/>
+    <functioncall functionName="yp"/>
+    <functioncall functionName="yp_port"/>
+    <functioncall functionName="z"/>
+    <functioncall functionName="z0"/>
+    <functioncall functionName="z1"/>
+    <functioncall functionName="z2"/>
+  </FileInfo>
+</analyzerinfo>

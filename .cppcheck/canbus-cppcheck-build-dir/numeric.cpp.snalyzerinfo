@@ -1,0 +1,10 @@
+exception
+bad_exception
+accumulate
+accumulate call:[binary_op]
+inner_product
+inner_product call:[binary_op1,binary_op2]
+partial_sum call:[temp]
+partial_sum call:[binary_op,temp]
+adjacent_difference call:[temp]
+adjacent_difference call:[binary_op,temp]

@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="457604864">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_x1&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_x1&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_x1</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_y1&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_y1&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_y1</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_w&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_w&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_w</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_h&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_h&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_h</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_textsize_x&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_textsize_x&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_textsize_x</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_textsize_y&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_textsize_y&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_textsize_y</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_outlinecolor&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_outlinecolor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_outlinecolor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_fillcolor&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_fillcolor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_fillcolor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_textcolor&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_textcolor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_textcolor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::_label&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::_label&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::_label</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::currstate&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::currstate&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::currstate</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_GFX_Button::laststate&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_GFX_Button::laststate&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="1552" column="22"/>
+            <symbol>Adafruit_GFX_Button::laststate</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="311" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="312" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="313" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="314" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="343" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="344" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="345" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="346" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="370" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="371" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="373" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="374" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:55:16" call-funcname="drawFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="209" col="16" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="304" col="23" info="Calling function &apos;writeFastVLine&apos;, 2nd argument &apos;y&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:38:16" call-funcname="writeFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="304" col="19" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:71:8" call-funcname="fillCircleHelper" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="456" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="4"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="5"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="6"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="7"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="9"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="GFXglyph" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="11" col="9" hash="11365847868067442727"/>
+<class name="GFXfont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="21" col="9" hash="13382455496609052712"/>
+<class name="Adafruit_GFX_Button" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="249" col="1" hash="17773684892714209983"/>
+<class name="GFXcanvas1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="307" col="1" hash="12432614644633637173"/>
+<class name="GFXcanvas8" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="339" col="1" hash="10229422216594437758"/>
+<class name="GFXcanvas16" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="366" col="1" hash="16659518306846854208"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:65:18" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="73" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:77:17" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="85" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1456" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1457" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1515" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1516" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:65:18" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="73" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:77:17" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="85" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="1" my-argname="str" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1460" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:55:16" call-funcname="drawFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="209" col="16" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="304" col="23" info="Calling function &apos;writeFastVLine&apos;, 2nd argument &apos;y&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:38:16" call-funcname="writeFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="304" col="19" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:71:8" call-funcname="fillCircleHelper" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="456" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="4"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="5"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="6"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="7"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="9"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="GFXglyph" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="11" col="9" hash="11365847868067442727"/>
+<class name="GFXfont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="21" col="9" hash="13382455496609052712"/>
+<class name="Adafruit_GFX_Button" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="249" col="1" hash="17773684892714209983"/>
+<class name="GFXcanvas1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="307" col="1" hash="12432614644633637173"/>
+<class name="GFXcanvas8" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="339" col="1" hash="10229422216594437758"/>
+<class name="GFXcanvas16" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="366" col="1" hash="16659518306846854208"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:65:18" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="73" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:77:17" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="85" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1456" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1457" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1515" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1516" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:65:18" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="73" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp:77:17" my-argnr="1" my-argname="gfxFont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="85" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="1" my-argname="str" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1460" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:55:16" call-funcname="drawFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="209" col="16" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="304" col="23" info="Calling function &apos;writeFastVLine&apos;, 2nd argument &apos;y&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:38:16" call-funcname="writeFastVLine" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="304" col="19" call-argexpr="y" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.cpp" line="317" col="15" info="Calling function &apos;fillRect&apos;, 2nd argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:57:16" call-funcname="fillRect" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="317" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:71:8" call-funcname="fillCircleHelper" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="456" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1463" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;x" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="3" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;y" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;minx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;miny" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxx" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:230:8" call-funcname="charBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1522" col="15" call-argexpr="&amp;maxy" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="4" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="4"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="5" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="5"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="6" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="6"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" call-funcname="getTextBounds" call-argnr="7" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1493" col="5" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:115:8" my-argnr="7"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1575" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:254:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1602" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:257:8" my-argnr="9"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" call-funcname="initButtonUL" call-argnr="9" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1627" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:262:8" my-argnr="9"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="GFXglyph" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="11" col="9" hash="11365847868067442727"/>
+<class name="GFXfont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="21" col="9" hash="13382455496609052712"/>
+<class name="Adafruit_GFX_Button" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="249" col="1" hash="17773684892714209983"/>
+<class name="GFXcanvas1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="307" col="1" hash="4574427129978522590"/>
+<class name="GFXcanvas8" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="339" col="1" hash="10229422216594437758"/>
+<class name="GFXcanvas16" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h" line="366" col="1" hash="16659518306846854208"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1456" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1457" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1458" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="4" my-argname="x1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1515" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="5" my-argname="y1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1516" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="6" my-argname="w" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="4" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:113:8" my-argnr="7" my-argname="h" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1517" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:111:8" my-argnr="1" my-argname="str" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1460" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.h:265:8" my-argnr="9" my-argname="label" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_GFX.cpp" line="1663" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="pgm_read_glyph_ptr" lineNumber="65"/>
+    <functiondecl functionName="pgm_read_bitmap_ptr" lineNumber="77"/>
+    <functiondecl functionName="writeLine" lineNumber="132"/>
+    <functiondecl functionName="startWrite" lineNumber="180"/>
+    <functiondecl functionName="writePixel" lineNumber="190"/>
+    <functiondecl functionName="writeFastVLine" lineNumber="204"/>
+    <functiondecl functionName="writeFastHLine" lineNumber="222"/>
+    <functiondecl functionName="writeFillRect" lineNumber="241"/>
+    <functiondecl functionName="endWrite" lineNumber="253"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="265"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="282"/>
+    <functiondecl functionName="fillRect" lineNumber="300"/>
+    <functiondecl functionName="fillScreen" lineNumber="316"/>
+    <functiondecl functionName="drawLine" lineNumber="330"/>
+    <functiondecl functionName="drawCircle" lineNumber="357"/>
+    <functiondecl functionName="drawCircleHelper" lineNumber="407"/>
+    <functiondecl functionName="fillCircle" lineNumber="452"/>
+    <functiondecl functionName="fillCircleHelper" lineNumber="471"/>
+    <functiondecl functionName="drawRect" lineNumber="523"/>
+    <functiondecl functionName="drawRoundRect" lineNumber="544"/>
+    <functiondecl functionName="fillRoundRect" lineNumber="574"/>
+    <functiondecl functionName="drawTriangle" lineNumber="600"/>
+    <functiondecl functionName="fillTriangle" lineNumber="619"/>
+    <functiondecl functionName="drawBitmap" lineNumber="717"/>
+    <functiondecl functionName="drawBitmap" lineNumber="751"/>
+    <functiondecl functionName="drawBitmap" lineNumber="783"/>
+    <functiondecl functionName="drawBitmap" lineNumber="817"/>
+    <functiondecl functionName="drawXBitmap" lineNumber="851"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="885"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="909"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="935"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="971"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1001"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1023"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1048"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1081"/>
+    <functiondecl functionName="drawChar" lineNumber="1115"/>
+    <functiondecl functionName="drawChar" lineNumber="1134"/>
+    <functiondecl functionName="setTextSize" lineNumber="1295"/>
+    <functiondecl functionName="setTextSize" lineNumber="1305"/>
+    <functiondecl functionName="setRotation" lineNumber="1316"/>
+    <functiondecl functionName="setFont" lineNumber="1338"/>
+    <functiondecl functionName="charBounds" lineNumber="1371"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1448"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1489"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1510"/>
+    <functiondecl functionName="invertDisplay" lineNumber="1540"/>
+    <functiondecl functionName="initButton" lineNumber="1570"/>
+    <functiondecl functionName="initButton" lineNumber="1596"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1622"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1648"/>
+    <functiondecl functionName="drawButton" lineNumber="1675"/>
+    <functiondecl functionName="contains" lineNumber="1708"/>
+    <functiondecl functionName="justPressed" lineNumber="1719"/>
+    <functiondecl functionName="justReleased" lineNumber="1727"/>
+    <functiondecl functionName="drawPixel" lineNumber="1788"/>
+    <functiondecl functionName="getPixel" lineNumber="1835"/>
+    <functiondecl functionName="getRawPixel" lineNumber="1867"/>
+    <functiondecl functionName="fillScreen" lineNumber="1889"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="1905"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="1961"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2016"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2055"/>
+    <functiondecl functionName="drawPixel" lineNumber="2144"/>
+    <functiondecl functionName="getPixel" lineNumber="2179"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2210"/>
+    <functiondecl functionName="fillScreen" lineNumber="2225"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2241"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2297"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2354"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2374"/>
+    <functiondecl functionName="drawPixel" lineNumber="2412"/>
+    <functiondecl functionName="getPixel" lineNumber="2447"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2478"/>
+    <functiondecl functionName="fillScreen" lineNumber="2493"/>
+    <functiondecl functionName="byteSwap" lineNumber="2519"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2536"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2591"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2646"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2665"/>
+    <functiondecl functionName="pgm_read_glyph_ptr" lineNumber="65"/>
+    <functiondecl functionName="pgm_read_bitmap_ptr" lineNumber="77"/>
+    <functiondecl functionName="writeLine" lineNumber="132"/>
+    <functiondecl functionName="startWrite" lineNumber="180"/>
+    <functiondecl functionName="writePixel" lineNumber="190"/>
+    <functiondecl functionName="writeFastVLine" lineNumber="204"/>
+    <functiondecl functionName="writeFastHLine" lineNumber="222"/>
+    <functiondecl functionName="writeFillRect" lineNumber="241"/>
+    <functiondecl functionName="endWrite" lineNumber="253"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="265"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="282"/>
+    <functiondecl functionName="fillRect" lineNumber="300"/>
+    <functiondecl functionName="fillScreen" lineNumber="316"/>
+    <functiondecl functionName="drawLine" lineNumber="330"/>
+    <functiondecl functionName="drawCircle" lineNumber="357"/>
+    <functiondecl functionName="drawCircleHelper" lineNumber="407"/>
+    <functiondecl functionName="fillCircle" lineNumber="452"/>
+    <functiondecl functionName="fillCircleHelper" lineNumber="471"/>
+    <functiondecl functionName="drawRect" lineNumber="523"/>
+    <functiondecl functionName="drawRoundRect" lineNumber="544"/>
+    <functiondecl functionName="fillRoundRect" lineNumber="574"/>
+    <functiondecl functionName="drawTriangle" lineNumber="600"/>
+    <functiondecl functionName="fillTriangle" lineNumber="619"/>
+    <functiondecl functionName="drawBitmap" lineNumber="717"/>
+    <functiondecl functionName="drawBitmap" lineNumber="751"/>
+    <functiondecl functionName="drawBitmap" lineNumber="783"/>
+    <functiondecl functionName="drawBitmap" lineNumber="817"/>
+    <functiondecl functionName="drawXBitmap" lineNumber="851"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="885"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="909"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="935"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="971"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1001"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1023"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1048"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1081"/>
+    <functiondecl functionName="drawChar" lineNumber="1115"/>
+    <functiondecl functionName="drawChar" lineNumber="1134"/>
+    <functiondecl functionName="setTextSize" lineNumber="1295"/>
+    <functiondecl functionName="setTextSize" lineNumber="1305"/>
+    <functiondecl functionName="setRotation" lineNumber="1316"/>
+    <functiondecl functionName="setFont" lineNumber="1338"/>
+    <functiondecl functionName="charBounds" lineNumber="1371"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1448"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1489"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1510"/>
+    <functiondecl functionName="invertDisplay" lineNumber="1540"/>
+    <functiondecl functionName="initButton" lineNumber="1570"/>
+    <functiondecl functionName="initButton" lineNumber="1596"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1622"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1648"/>
+    <functiondecl functionName="drawButton" lineNumber="1675"/>
+    <functiondecl functionName="contains" lineNumber="1708"/>
+    <functiondecl functionName="justPressed" lineNumber="1719"/>
+    <functiondecl functionName="justReleased" lineNumber="1727"/>
+    <functiondecl functionName="drawPixel" lineNumber="1788"/>
+    <functiondecl functionName="getPixel" lineNumber="1835"/>
+    <functiondecl functionName="getRawPixel" lineNumber="1867"/>
+    <functiondecl functionName="fillScreen" lineNumber="1889"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="1905"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="1961"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2016"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2055"/>
+    <functiondecl functionName="drawPixel" lineNumber="2144"/>
+    <functiondecl functionName="getPixel" lineNumber="2179"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2210"/>
+    <functiondecl functionName="fillScreen" lineNumber="2225"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2241"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2297"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2354"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2374"/>
+    <functiondecl functionName="drawPixel" lineNumber="2412"/>
+    <functiondecl functionName="getPixel" lineNumber="2447"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2478"/>
+    <functiondecl functionName="fillScreen" lineNumber="2493"/>
+    <functiondecl functionName="byteSwap" lineNumber="2519"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2536"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2591"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2646"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2665"/>
+    <functiondecl functionName="pgm_read_glyph_ptr" lineNumber="65"/>
+    <functiondecl functionName="pgm_read_bitmap_ptr" lineNumber="77"/>
+    <functiondecl functionName="writeLine" lineNumber="132"/>
+    <functiondecl functionName="startWrite" lineNumber="180"/>
+    <functiondecl functionName="writePixel" lineNumber="190"/>
+    <functiondecl functionName="writeFastVLine" lineNumber="204"/>
+    <functiondecl functionName="writeFastHLine" lineNumber="222"/>
+    <functiondecl functionName="writeFillRect" lineNumber="241"/>
+    <functiondecl functionName="endWrite" lineNumber="253"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="265"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="282"/>
+    <functiondecl functionName="fillRect" lineNumber="300"/>
+    <functiondecl functionName="fillScreen" lineNumber="316"/>
+    <functiondecl functionName="drawLine" lineNumber="330"/>
+    <functiondecl functionName="drawCircle" lineNumber="357"/>
+    <functiondecl functionName="drawCircleHelper" lineNumber="407"/>
+    <functiondecl functionName="fillCircle" lineNumber="452"/>
+    <functiondecl functionName="fillCircleHelper" lineNumber="471"/>
+    <functiondecl functionName="drawRect" lineNumber="523"/>
+    <functiondecl functionName="drawRoundRect" lineNumber="544"/>
+    <functiondecl functionName="fillRoundRect" lineNumber="574"/>
+    <functiondecl functionName="drawTriangle" lineNumber="600"/>
+    <functiondecl functionName="fillTriangle" lineNumber="619"/>
+    <functiondecl functionName="drawBitmap" lineNumber="717"/>
+    <functiondecl functionName="drawBitmap" lineNumber="751"/>
+    <functiondecl functionName="drawBitmap" lineNumber="783"/>
+    <functiondecl functionName="drawBitmap" lineNumber="817"/>
+    <functiondecl functionName="drawXBitmap" lineNumber="851"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="885"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="909"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="935"/>
+    <functiondecl functionName="drawGrayscaleBitmap" lineNumber="971"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1001"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1023"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1048"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1081"/>
+    <functiondecl functionName="drawChar" lineNumber="1115"/>
+    <functiondecl functionName="drawChar" lineNumber="1134"/>
+    <functiondecl functionName="setTextSize" lineNumber="1295"/>
+    <functiondecl functionName="setTextSize" lineNumber="1305"/>
+    <functiondecl functionName="setRotation" lineNumber="1316"/>
+    <functiondecl functionName="setFont" lineNumber="1338"/>
+    <functiondecl functionName="charBounds" lineNumber="1371"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1448"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1489"/>
+    <functiondecl functionName="getTextBounds" lineNumber="1510"/>
+    <functiondecl functionName="invertDisplay" lineNumber="1540"/>
+    <functiondecl functionName="initButton" lineNumber="1570"/>
+    <functiondecl functionName="initButton" lineNumber="1596"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1622"/>
+    <functiondecl functionName="initButtonUL" lineNumber="1648"/>
+    <functiondecl functionName="drawButton" lineNumber="1675"/>
+    <functiondecl functionName="contains" lineNumber="1708"/>
+    <functiondecl functionName="justPressed" lineNumber="1719"/>
+    <functiondecl functionName="justReleased" lineNumber="1727"/>
+    <functiondecl functionName="drawPixel" lineNumber="1788"/>
+    <functiondecl functionName="getPixel" lineNumber="1835"/>
+    <functiondecl functionName="getRawPixel" lineNumber="1867"/>
+    <functiondecl functionName="fillScreen" lineNumber="1889"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="1905"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="1961"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2016"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2055"/>
+    <functiondecl functionName="drawPixel" lineNumber="2144"/>
+    <functiondecl functionName="getPixel" lineNumber="2179"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2210"/>
+    <functiondecl functionName="fillScreen" lineNumber="2225"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2241"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2297"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2354"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2374"/>
+    <functiondecl functionName="drawPixel" lineNumber="2412"/>
+    <functiondecl functionName="getPixel" lineNumber="2447"/>
+    <functiondecl functionName="getRawPixel" lineNumber="2478"/>
+    <functiondecl functionName="fillScreen" lineNumber="2493"/>
+    <functiondecl functionName="byteSwap" lineNumber="2519"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="2536"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="2591"/>
+    <functiondecl functionName="drawFastRawVLine" lineNumber="2646"/>
+    <functiondecl functionName="drawFastRawHLine" lineNumber="2665"/>
+    <functioncall functionName="Adafruit_GFX"/>
+    <functioncall functionName="Adafruit_GFX_Button"/>
+    <functioncall functionName="GFXcanvas1"/>
+    <functioncall functionName="GFXcanvas16"/>
+    <functioncall functionName="GFXcanvas8"/>
+    <functioncall functionName="HEIGHT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="WIDTH"/>
+    <functioncall functionName="__builtin_bswap16"/>
+    <functioncall functionName="_fillcolor"/>
+    <functioncall functionName="_h"/>
+    <functioncall functionName="_height"/>
+    <functioncall functionName="_label"/>
+    <functioncall functionName="_outlinecolor"/>
+    <functioncall functionName="_textcolor"/>
+    <functioncall functionName="_textsize_x"/>
+    <functioncall functionName="_textsize_y"/>
+    <functioncall functionName="_w"/>
+    <functioncall functionName="_width"/>
+    <functioncall functionName="_x1"/>
+    <functioncall functionName="_y1"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="bg"/>
+    <functioncall functionName="bitmap"/>
+    <functioncall functionName="bitmapOffset"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="buffer_index"/>
+    <functioncall functionName="bytes"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="charBounds"/>
+    <functioncall functionName="color"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="currstate"/>
+    <functioncall functionName="cursor_x"/>
+    <functioncall functionName="cursor_y"/>
+    <functioncall functionName="delta"/>
+    <functioncall functionName="drawChar"/>
+    <functioncall functionName="drawCircleHelper"/>
+    <functioncall functionName="drawFastHLine"/>
+    <functioncall functionName="drawFastRawHLine"/>
+    <functioncall functionName="drawFastRawVLine"/>
+    <functioncall functionName="drawFastVLine"/>
+    <functioncall functionName="drawLine"/>
+    <functioncall functionName="drawPixel"/>
+    <functioncall functionName="drawRoundRect"/>
+    <functioncall functionName="dy01"/>
+    <functioncall functionName="dy02"/>
+    <functioncall functionName="dy12"/>
+    <functioncall functionName="endWrite"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="fillCircleHelper"/>
+    <functioncall functionName="fillRect"/>
+    <functioncall functionName="fillRoundRect"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="font"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getRawPixel"/>
+    <functioncall functionName="getRotation"/>
+    <functioncall functionName="getTextBounds"/>
+    <functioncall functionName="gfx"/>
+    <functioncall functionName="gfxFont"/>
+    <functioncall functionName="glyph"/>
+    <functioncall functionName="gw"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initButtonUL"/>
+    <functioncall functionName="int16_t"/>
+    <functioncall functionName="int32_t"/>
+    <functioncall functionName="int8_t"/>
+    <functioncall functionName="inverted"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="last"/>
+    <functioncall functionName="lastByteBits"/>
+    <functioncall functionName="laststate"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lo"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="max_radius"/>
+    <functioncall functionName="maxx"/>
+    <functioncall functionName="maxy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="minx"/>
+    <functioncall functionName="miny"/>
+    <functioncall functionName="outline"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pgm_read_bitmap_ptr"/>
+    <functioncall functionName="pgm_read_glyph_ptr"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="px"/>
+    <functioncall functionName="py"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="remainingWholeBytes"/>
+    <functioncall functionName="remainingWidthBits"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rotation"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="s_x"/>
+    <functioncall functionName="s_y"/>
+    <functioncall functionName="setCursor"/>
+    <functioncall functionName="setTextColor"/>
+    <functioncall functionName="setTextSize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="size_x"/>
+    <functioncall functionName="size_y"/>
+    <functioncall functionName="startWrite"/>
+    <functioncall functionName="steep"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="textbgcolor"/>
+    <functioncall functionName="textcolor"/>
+    <functioncall functionName="textsize"/>
+    <functioncall functionName="textsize_x"/>
+    <functioncall functionName="textsize_y"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wholeByteColor"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="writeFastHLine"/>
+    <functioncall functionName="writeFastVLine"/>
+    <functioncall functionName="writeFillRect"/>
+    <functioncall functionName="writeLine"/>
+    <functioncall functionName="writePixel"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="x0"/>
+    <functioncall functionName="x1"/>
+    <functioncall functionName="x2"/>
+    <functioncall functionName="xAdvance"/>
+    <functioncall functionName="xOffset"/>
+    <functioncall functionName="xo"/>
+    <functioncall functionName="xx"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="y0"/>
+    <functioncall functionName="y1"/>
+    <functioncall functionName="y2"/>
+    <functioncall functionName="yAdvance"/>
+    <functioncall functionName="yOffset"/>
+    <functioncall functionName="yield"/>
+    <functioncall functionName="yo"/>
+    <functioncall functionName="yy"/>
+  </FileInfo>
+</analyzerinfo>

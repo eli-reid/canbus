@@ -1,0 +1,4 @@
+mainPage call:[Menu,addItem,statusBar,width] noreturn:[addItem]
+mainPage
+setup global:[screen] call:[begin,draw,mainPageInit,screen_init] noreturn:[draw]
+loop call:[delay] noreturn:[delay]

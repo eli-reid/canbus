@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1717369832">
+  <FileInfo check="Class">
+<class name="menuItem" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menuItem.h" line="3" col="1" hash="16608242241014265468"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="menuItem"/>
+  </FileInfo>
+</analyzerinfo>

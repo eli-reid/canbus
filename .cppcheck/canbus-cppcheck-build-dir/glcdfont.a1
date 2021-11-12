@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3848900275">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="avoid_unused_const_variable_compiler_warning" lineNumber="139"/>
+    <functiondecl functionName="avoid_unused_const_variable_compiler_warning" lineNumber="139"/>
+    <functioncall functionName="font"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

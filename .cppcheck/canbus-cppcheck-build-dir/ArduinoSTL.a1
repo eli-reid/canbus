@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4020170875">
+        <error id="syntaxError" severity="error" msg="SymbolDatabase bailout; unhandled code" verbose="SymbolDatabase bailout; unhandled code" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/avr_stl/src/ArduinoSTL.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\avr_stl\src\string" line="420" column="65"/>
+        </error>
+</analyzerinfo>

@@ -1,0 +1,28 @@
+setCursor
+setTextColor
+setTextColor
+setTextWrap
+cp437
+width
+height
+getRotation
+getCursorX
+getCursorY
+press
+isPressed
+getBuffer
+getBuffer
+getBuffer
+Adafruit_GrayOLED
+Adafruit_GrayOLED call:[Adafruit_SPIDevice] noreturn:[Adafruit_SPIDevice]
+Adafruit_GrayOLED call:[Adafruit_SPIDevice] noreturn:[Adafruit_SPIDevice]
+Adafruit_GrayOLED call:[free]
+oled_command call:[digitalWrite,write] noreturn:[write]
+oled_commandList call:[digitalWrite,write]
+_init call:[Adafruit_I2CDevice,begin,clearDisplay,delay,digitalWrite,malloc,pinMode] noreturn:[delay,pinMode]
+drawPixel call:[getRotation,height,max,min,width]
+clearDisplay call:[memset]
+getPixel call:[getRotation,height,return,width] noreturn:[return]
+getBuffer
+invertDisplay call:[oled_command] noreturn:[oled_command]
+setContrast call:[oled_commandList] noreturn:[oled_commandList]

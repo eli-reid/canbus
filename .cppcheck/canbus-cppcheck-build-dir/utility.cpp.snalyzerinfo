@@ -1,0 +1,15 @@
+operator!=
+operator> call:[return] noreturn:[return]
+operator<=
+operator>=
+pair
+pair
+pair
+operator== call:[return] noreturn:[return]
+operator<
+operator!=
+operator>
+operator>=
+operator<=
+make_pair
+move

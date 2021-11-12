@@ -1,0 +1,11 @@
+Adafruit_SPIDevice call:[SPISettings]
+Adafruit_SPIDevice call:[SPISettings,digitalPinToBitMask,digitalPinToPort,portInputRegister,portOutputRegister] noreturn:[digitalPinToBitMask]
+Adafruit_SPIDevice
+begin call:[begin,digitalWrite,pinMode] noreturn:[begin,digitalWrite,pinMode]
+transfer call:[delayMicroseconds,transfer] noreturn:[delayMicroseconds]
+transfer call:[transfer]
+beginTransaction call:[beginTransaction] noreturn:[beginTransaction]
+endTransaction call:[endTransaction] noreturn:[endTransaction]
+write call:[beginTransaction,digitalWrite,endTransaction,transfer] noreturn:[beginTransaction,endTransaction,transfer]
+read call:[beginTransaction,digitalWrite,endTransaction,memset,transfer] noreturn:[beginTransaction,endTransaction]
+write_then_read call:[beginTransaction,digitalWrite,endTransaction,transfer] noreturn:[beginTransaction,endTransaction,transfer]

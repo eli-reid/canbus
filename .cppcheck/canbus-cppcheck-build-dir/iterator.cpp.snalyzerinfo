@@ -1,0 +1,146 @@
+exception
+bad_exception
+operatornew
+operatordelete
+operatornew[]
+operatordelete[]
+div call:[ldiv] noreturn:[ldiv]
+advance
+distance
+reverse_iterator
+reverse_iterator
+reverse_iterator
+base
+operator*
+operator. call:[operator*]
+operator[]
+operator++
+operator++
+operator--
+operator--
+operator+ call:[retval]
+operator+=
+operator- call:[retval]
+operator-=
+operator== call:[base] noreturn:[base]
+operator< call:[base] noreturn:[base]
+operator!= call:[base] noreturn:[base]
+operator> call:[base] noreturn:[base]
+operator>= call:[base] noreturn:[base]
+operator<= call:[base] noreturn:[base]
+operator- call:[base] noreturn:[base]
+operator+ call:[base]
+back_insert_iterator
+operator= call:[push_back]
+operator*
+operator++
+operator++
+back_inserter
+front_insert_iterator
+operator= call:[push_front]
+operator*
+operator++
+operator++
+front_inserter
+insert_iterator
+operator= call:[insert]
+operator*
+operator++
+operator++
+inserter call:[iterator]
+operator!=
+operator> call:[return] noreturn:[return]
+operator<=
+operator>=
+pair
+pair
+pair
+operator== call:[return] noreturn:[return]
+operator<
+operator!=
+operator>
+operator>=
+operator<=
+make_pair
+move
+address
+address
+allocator < void >
+allocator < void >
+allocate call:[operatornew,return,sizeof]
+deallocate call:[operatordelete] noreturn:[operatordelete]
+construct call:[T,new] noreturn:[T]
+destroy call:[T] noreturn:[T]
+raw_storage_iterator
+operator*
+operator= call:[T,new]
+operator++
+operator++
+get_temporary_buffer call:[malloc,sizeof]
+return_temporary_buffer call:[free] noreturn:[free]
+auto_ptr
+auto_ptr
+auto_ptr
+auto_ptr
+operator= call:[release]
+operator= call:[release]
+auto_ptr
+operator*
+operator.
+get
+release
+reset
+assign
+to_int_type call:[return]
+eq_int_type
+lt call:[strncmp]
+move call:[memmove,return] noreturn:[memmove]
+copy call:[assign] noreturn:[assign]
+assign call:[memset,return] noreturn:[memset]
+compare call:[strncmp] noreturn:[strncmp]
+length call:[strlen] noreturn:[strlen]
+eos
+eof
+not_eof
+get_state
+istream_iterator
+istream_iterator
+istream_iterator
+istream_iterator
+operator*
+operator.
+operator++
+operator++ call:[return] noreturn:[return]
+m_equal call:[return] noreturn:[return]
+operator== call:[m_equal] noreturn:[m_equal]
+operator!=
+ostream_iterator
+ostream_iterator
+ostream_iterator
+ostream_iterator
+operator= call:[return] noreturn:[return]
+operator*
+operator++
+operator++
+proxy
+operator*
+istreambuf_iterator
+istreambuf_iterator
+istreambuf_iterator
+istreambuf_iterator
+operator* call:[sgetc] noreturn:[sgetc]
+operator++ call:[sbumpc]
+operator++ call:[return,sbumpc] noreturn:[return]
+equal call:[is_eof] noreturn:[is_eof]
+is_eof call:[eof,sgetc] noreturn:[eof]
+operator== call:[equal] noreturn:[equal]
+operator!= call:[equal] noreturn:[equal]
+ostreambuf_iterator
+ostreambuf_iterator
+operator= call:[eof,failed,sputc]
+operator*
+operator++
+operator++
+failed
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]

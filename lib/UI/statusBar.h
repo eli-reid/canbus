@@ -8,6 +8,7 @@ class statusBar: public Item
         location_enum _location;
 
      public:
+     statusBar();
         statusBar(Elegoo_GFX *display, int16_t h, int16_t w, 
             int8_t textSize, 
             bool visible, bool border, 

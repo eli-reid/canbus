@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1545688442">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="__cxa_pure_virtual" lineNumber="40"/>
+    <functioncall functionName="abort"/>
+  </FileInfo>
+</analyzerinfo>

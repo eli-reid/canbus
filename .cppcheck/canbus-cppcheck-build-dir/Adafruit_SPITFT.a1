@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1431782120">
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="311" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="312" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="313" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="314" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="343" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="344" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="345" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="346" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="370" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillScreen&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="371" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="59" column="16" info="Virtual function in base class"/>
+            <symbol>fillScreen</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="373" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="374" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;startWrite&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;startWrite&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="199" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="34" column="16" info="Virtual function in base class"/>
+            <symbol>startWrite</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;endWrite&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;endWrite&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="201" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="42" column="16" info="Virtual function in base class"/>
+            <symbol>endWrite</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;writePixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;writePixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="217" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="35" column="16" info="Virtual function in base class"/>
+            <symbol>writePixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;writeFillRect&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;writeFillRect&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="221" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="36" column="16" info="Virtual function in base class"/>
+            <symbol>writeFillRect</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;writeFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;writeFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="223" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="39" column="16" info="Virtual function in base class"/>
+            <symbol>writeFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;writeFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;writeFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="224" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="38" column="16" info="Virtual function in base class"/>
+            <symbol>writeFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawPixel&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="243" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="29" column="16" info="Virtual function in base class"/>
+            <symbol>drawPixel</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;fillRect&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;fillRect&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="244" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="57" column="16" info="Virtual function in base class"/>
+            <symbol>fillRect</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastHLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="245" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="56" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastHLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;drawFastVLine&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="246" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="55" column="16" info="Virtual function in base class"/>
+            <symbol>drawFastVLine</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;invertDisplay&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;invertDisplay&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.h" line="256" column="8" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_GFX.h" line="48" column="16" info="Virtual function in base class"/>
+            <symbol>invertDisplay</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="947" col="18" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="946" col="10" info="Assuming that condition &apos;x&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="947" col="18" call-argexpr="y" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="946" col="38" info="Assuming that condition &apos;y&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="1637" col="18" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="1634" col="10" info="Assuming that condition &apos;x&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="1637" col="18" call-argexpr="y" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="1634" col="38" info="Assuming that condition &apos;y&gt;=0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="GFXglyph" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="11" col="9" hash="11365847868067442727"/>
+<class name="GFXfont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="21" col="9" hash="13382455496609052712"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="947" col="18" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="946" col="10" info="Assuming that condition &apos;x&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="947" col="18" call-argexpr="y" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="946" col="38" info="Assuming that condition &apos;y&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="1637" col="18" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="1634" col="10" info="Assuming that condition &apos;x&gt;=0&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.h:184:16" call-funcname="setAddrWindow" call-argnr="2" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/Adafruit_SPITFT.cpp" line="1637" col="18" call-argexpr="y" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_GFX_Library\Adafruit_SPITFT.cpp" line="1634" col="38" info="Assuming that condition &apos;y&gt;=0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="GFXglyph" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="11" col="9" hash="11365847868067442727"/>
+<class name="GFXfont" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/gfxfont.h" line="21" col="9" hash="13382455496609052712"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initSPI" lineNumber="527"/>
+    <functiondecl functionName="setSPISpeed" lineNumber="898"/>
+    <functiondecl functionName="startWrite" lineNumber="912"/>
+    <functiondecl functionName="endWrite" lineNumber="924"/>
+    <functiondecl functionName="writePixel" lineNumber="945"/>
+    <functiondecl functionName="swapBytes" lineNumber="962"/>
+    <functiondecl functionName="writePixels" lineNumber="995"/>
+    <functiondecl functionName="dmaWait" lineNumber="1159"/>
+    <functiondecl functionName="writeColor" lineNumber="1180"/>
+    <functiondecl functionName="writeFillRect" lineNumber="1476"/>
+    <functiondecl functionName="writeFastHLine" lineNumber="1528"/>
+    <functiondecl functionName="writeFastVLine" lineNumber="1564"/>
+    <functiondecl functionName="writeFillRectPreclipped" lineNumber="1608"/>
+    <functiondecl functionName="drawPixel" lineNumber="1632"/>
+    <functiondecl functionName="fillRect" lineNumber="1662"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="1720"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="1761"/>
+    <functiondecl functionName="pushColor" lineNumber="1794"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1816"/>
+    <functiondecl functionName="invertDisplay" lineNumber="1861"/>
+    <functiondecl functionName="color565" lineNumber="1877"/>
+    <functiondecl functionName="sendCommand" lineNumber="1888"/>
+    <functiondecl functionName="sendCommand" lineNumber="1920"/>
+    <functiondecl functionName="sendCommand16" lineNumber="1955"/>
+    <functiondecl functionName="readcommand8" lineNumber="1991"/>
+    <functiondecl functionName="readcommand16" lineNumber="2010"/>
+    <functiondecl functionName="SPI_BEGIN_TRANSACTION" lineNumber="2052"/>
+    <functiondecl functionName="SPI_END_TRANSACTION" lineNumber="2080"/>
+    <functiondecl functionName="spiWrite" lineNumber="2097"/>
+    <functiondecl functionName="writeCommand" lineNumber="2140"/>
+    <functiondecl functionName="spiRead" lineNumber="2156"/>
+    <functiondecl functionName="write16" lineNumber="2219"/>
+    <functiondecl functionName="writeCommand16" lineNumber="2239"/>
+    <functiondecl functionName="read16" lineNumber="2253"/>
+    <functiondecl functionName="SPI_MOSI_HIGH" lineNumber="2282"/>
+    <functiondecl functionName="SPI_MOSI_LOW" lineNumber="2305"/>
+    <functiondecl functionName="SPI_SCK_HIGH" lineNumber="2328"/>
+    <functiondecl functionName="SPI_SCK_LOW" lineNumber="2355"/>
+    <functiondecl functionName="SPI_MISO_READ" lineNumber="2383"/>
+    <functiondecl functionName="SPI_WRITE16" lineNumber="2405"/>
+    <functiondecl functionName="SPI_WRITE32" lineNumber="2459"/>
+    <functiondecl functionName="TFT_WR_STROBE" lineNumber="2520"/>
+    <functiondecl functionName="TFT_RD_HIGH" lineNumber="2544"/>
+    <functiondecl functionName="TFT_RD_LOW" lineNumber="2560"/>
+    <functiondecl functionName="initSPI" lineNumber="527"/>
+    <functiondecl functionName="setSPISpeed" lineNumber="898"/>
+    <functiondecl functionName="startWrite" lineNumber="912"/>
+    <functiondecl functionName="endWrite" lineNumber="924"/>
+    <functiondecl functionName="writePixel" lineNumber="945"/>
+    <functiondecl functionName="swapBytes" lineNumber="962"/>
+    <functiondecl functionName="writePixels" lineNumber="995"/>
+    <functiondecl functionName="dmaWait" lineNumber="1159"/>
+    <functiondecl functionName="writeColor" lineNumber="1180"/>
+    <functiondecl functionName="writeFillRect" lineNumber="1476"/>
+    <functiondecl functionName="writeFastHLine" lineNumber="1528"/>
+    <functiondecl functionName="writeFastVLine" lineNumber="1564"/>
+    <functiondecl functionName="writeFillRectPreclipped" lineNumber="1608"/>
+    <functiondecl functionName="drawPixel" lineNumber="1632"/>
+    <functiondecl functionName="fillRect" lineNumber="1662"/>
+    <functiondecl functionName="drawFastHLine" lineNumber="1720"/>
+    <functiondecl functionName="drawFastVLine" lineNumber="1761"/>
+    <functiondecl functionName="pushColor" lineNumber="1794"/>
+    <functiondecl functionName="drawRGBBitmap" lineNumber="1816"/>
+    <functiondecl functionName="invertDisplay" lineNumber="1861"/>
+    <functiondecl functionName="color565" lineNumber="1877"/>
+    <functiondecl functionName="sendCommand" lineNumber="1888"/>
+    <functiondecl functionName="sendCommand" lineNumber="1920"/>
+    <functiondecl functionName="sendCommand16" lineNumber="1955"/>
+    <functiondecl functionName="readcommand8" lineNumber="1991"/>
+    <functiondecl functionName="readcommand16" lineNumber="2010"/>
+    <functiondecl functionName="SPI_BEGIN_TRANSACTION" lineNumber="2052"/>
+    <functiondecl functionName="SPI_END_TRANSACTION" lineNumber="2080"/>
+    <functiondecl functionName="spiWrite" lineNumber="2097"/>
+    <functiondecl functionName="writeCommand" lineNumber="2140"/>
+    <functiondecl functionName="spiRead" lineNumber="2156"/>
+    <functiondecl functionName="write16" lineNumber="2219"/>
+    <functiondecl functionName="writeCommand16" lineNumber="2239"/>
+    <functiondecl functionName="read16" lineNumber="2253"/>
+    <functiondecl functionName="SPI_MOSI_HIGH" lineNumber="2282"/>
+    <functiondecl functionName="SPI_MOSI_LOW" lineNumber="2305"/>
+    <functiondecl functionName="SPI_SCK_HIGH" lineNumber="2328"/>
+    <functiondecl functionName="SPI_SCK_LOW" lineNumber="2355"/>
+    <functiondecl functionName="SPI_MISO_READ" lineNumber="2383"/>
+    <functiondecl functionName="SPI_WRITE16" lineNumber="2405"/>
+    <functiondecl functionName="SPI_WRITE32" lineNumber="2459"/>
+    <functiondecl functionName="TFT_WR_STROBE" lineNumber="2520"/>
+    <functiondecl functionName="TFT_RD_HIGH" lineNumber="2544"/>
+    <functiondecl functionName="TFT_RD_LOW" lineNumber="2560"/>
+    <functioncall functionName="Adafruit_GFX"/>
+    <functioncall functionName="Adafruit_SPITFT"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="MSBFIRST"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPIF"/>
+    <functioncall functionName="SPI_BEGIN_TRANSACTION"/>
+    <functioncall functionName="SPI_CLOCK_DIV2"/>
+    <functioncall functionName="SPI_CS_HIGH"/>
+    <functioncall functionName="SPI_CS_LOW"/>
+    <functioncall functionName="SPI_DC_HIGH"/>
+    <functioncall functionName="SPI_DC_LOW"/>
+    <functioncall functionName="SPI_END_TRANSACTION"/>
+    <functioncall functionName="SPI_MISO_READ"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="SPI_MOSI_HIGH"/>
+    <functioncall functionName="SPI_MOSI_LOW"/>
+    <functioncall functionName="SPI_SCK_HIGH"/>
+    <functioncall functionName="SPI_SCK_LOW"/>
+    <functioncall functionName="SPI_WRITE16"/>
+    <functioncall functionName="TFT_RD_HIGH"/>
+    <functioncall functionName="TFT_RD_LOW"/>
+    <functioncall functionName="TFT_WR_STROBE"/>
+    <functioncall functionName="_BV"/>
+    <functioncall functionName="__builtin_bswap16"/>
+    <functioncall functionName="_cs"/>
+    <functioncall functionName="_dc"/>
+    <functioncall functionName="_miso"/>
+    <functioncall functionName="_mode"/>
+    <functioncall functionName="_mosi"/>
+    <functioncall functionName="_rd"/>
+    <functioncall functionName="_rst"/>
+    <functioncall functionName="_sck"/>
+    <functioncall functionName="_wr"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bg"/>
+    <functioncall functionName="bigEndian"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="bx1"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="cmd"/>
+    <functioncall functionName="color"/>
+    <functioncall functionName="commandByte"/>
+    <functioncall functionName="commandWord"/>
+    <functioncall functionName="connection"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cs"/>
+    <functioncall functionName="currstate"/>
+    <functioncall functionName="d0"/>
+    <functioncall functionName="dataBytes"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="dcPort"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="dest"/>
+    <functioncall functionName="digitalPinToBitMask"/>
+    <functioncall functionName="digitalPinToPort"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endWrite"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="freq"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="hi"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="invertOffCommand"/>
+    <functioncall functionName="invertOnCommand"/>
+    <functioncall functionName="l"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="lo"/>
+    <functioncall functionName="miso"/>
+    <functioncall functionName="misoPinMask"/>
+    <functioncall functionName="mosi"/>
+    <functioncall functionName="mosiPinMaskClr"/>
+    <functioncall functionName="mosiPinMaskSet"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pcolors"/>
+    <functioncall functionName="pgm_read_byte"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="portInputRegister"/>
+    <functioncall functionName="portModeRegister"/>
+    <functioncall functionName="portOutputRegister"/>
+    <functioncall functionName="rd"/>
+    <functioncall functionName="rdPinMaskClr"/>
+    <functioncall functionName="rdPinMaskSet"/>
+    <functioncall functionName="readPort"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rst"/>
+    <functioncall functionName="sck"/>
+    <functioncall functionName="sckPinMaskClr"/>
+    <functioncall functionName="sckPinMaskSet"/>
+    <functioncall functionName="setAddrWindow"/>
+    <functioncall functionName="setBitOrder"/>
+    <functioncall functionName="setClockDivider"/>
+    <functioncall functionName="setDataMode"/>
+    <functioncall functionName="spiClass"/>
+    <functioncall functionName="spiMode"/>
+    <functioncall functionName="spiRead"/>
+    <functioncall functionName="spiWrite"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="startWrite"/>
+    <functioncall functionName="tft16bitbus"/>
+    <functioncall functionName="tft8bitbus"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wide"/>
+    <functioncall functionName="wr"/>
+    <functioncall functionName="wrPinMaskClr"/>
+    <functioncall functionName="wrPinMaskSet"/>
+    <functioncall functionName="write16"/>
+    <functioncall functionName="writeColor"/>
+    <functioncall functionName="writeCommand"/>
+    <functioncall functionName="writeFillRectPreclipped"/>
+    <functioncall functionName="writePixels"/>
+    <functioncall functionName="writePort"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

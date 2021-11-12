@@ -1,0 +1,68 @@
+setCursor
+setTextColor
+setTextColor
+setTextWrap
+cp437
+width
+height
+getRotation
+getCursorX
+getCursorY
+press
+isPressed
+getBuffer
+getBuffer
+getBuffer
+Adafruit_SPITFT
+SPI_CS_HIGH
+SPI_CS_LOW
+SPI_DC_HIGH
+SPI_DC_LOW
+Adafruit_SPITFT call:[digitalPinToBitMask,digitalPinToPort,portInputRegister,portOutputRegister] noreturn:[digitalPinToBitMask]
+Adafruit_SPITFT
+Adafruit_SPITFT call:[digitalPinToBitMask,digitalPinToPort,portOutputRegister] noreturn:[digitalPinToBitMask]
+Adafruit_SPITFT call:[digitalPinToBitMask,digitalPinToPort,portInputRegister,portModeRegister,portOutputRegister] noreturn:[digitalPinToBitMask,portModeRegister]
+initSPI call:[begin,delay,digitalPinToPort,digitalWrite,pinMode,portOutputRegister] noreturn:[begin,delay,digitalWrite,pinMode]
+setSPISpeed
+startWrite call:[SPI_BEGIN_TRANSACTION,SPI_CS_LOW] noreturn:[SPI_CS_LOW]
+endWrite call:[SPI_CS_HIGH,SPI_END_TRANSACTION] noreturn:[SPI_CS_HIGH,SPI_END_TRANSACTION]
+writePixel call:[SPI_WRITE16,setAddrWindow] noreturn:[SPI_WRITE16]
+swapBytes call:[__builtin_bswap16] noreturn:[__builtin_bswap16]
+writePixels call:[SPI_WRITE16,__builtin_bswap16] noreturn:[SPI_WRITE16]
+dmaWait
+writeColor call:[SPI_MOSI_HIGH,SPI_MOSI_LOW,SPI_SCK_HIGH,SPI_SCK_LOW,TFT_WR_STROBE,_BV] noreturn:[SPI_MOSI_HIGH,SPI_MOSI_LOW,TFT_WR_STROBE]
+writeFillRect call:[writeFillRectPreclipped] noreturn:[writeFillRectPreclipped]
+writeFastHLine call:[writeFillRectPreclipped] noreturn:[writeFillRectPreclipped]
+writeFastVLine call:[writeFillRectPreclipped] noreturn:[writeFillRectPreclipped]
+writeFillRectPreclipped call:[setAddrWindow,writeColor] noreturn:[writeColor]
+drawPixel call:[SPI_WRITE16,endWrite,setAddrWindow,startWrite] noreturn:[endWrite]
+fillRect call:[endWrite,startWrite,writeFillRectPreclipped] noreturn:[endWrite]
+drawFastHLine call:[endWrite,startWrite,writeFillRectPreclipped] noreturn:[endWrite]
+drawFastVLine call:[endWrite,startWrite,writeFillRectPreclipped] noreturn:[endWrite]
+pushColor call:[SPI_WRITE16,endWrite,startWrite] noreturn:[endWrite]
+drawRGBBitmap call:[endWrite,setAddrWindow,startWrite,writePixels] noreturn:[endWrite]
+invertDisplay call:[endWrite,startWrite,writeCommand] noreturn:[endWrite]
+color565 call:[return]
+sendCommand call:[SPI_BEGIN_TRANSACTION,SPI_CS_HIGH,SPI_CS_LOW,SPI_DC_HIGH,SPI_DC_LOW,SPI_END_TRANSACTION,SPI_WRITE16,spiWrite] noreturn:[SPI_CS_HIGH,SPI_CS_LOW,SPI_END_TRANSACTION]
+sendCommand call:[SPI_BEGIN_TRANSACTION,SPI_CS_HIGH,SPI_CS_LOW,SPI_DC_HIGH,SPI_DC_LOW,SPI_END_TRANSACTION,SPI_WRITE16,pgm_read_byte,spiWrite] noreturn:[SPI_CS_HIGH,SPI_CS_LOW,SPI_END_TRANSACTION,spiWrite]
+sendCommand16 call:[SPI_BEGIN_TRANSACTION,SPI_CS_HIGH,SPI_CS_LOW,SPI_DC_HIGH,SPI_DC_LOW,SPI_END_TRANSACTION,SPI_WRITE16,pgm_read_byte] noreturn:[SPI_CS_HIGH,SPI_CS_LOW,SPI_DC_HIGH,SPI_END_TRANSACTION,SPI_WRITE16]
+readcommand8 call:[SPI_DC_HIGH,SPI_DC_LOW,endWrite,spiRead,spiWrite,startWrite,while] noreturn:[spiRead]
+readcommand16 call:[SPI_DC_HIGH,SPI_DC_LOW,SPI_WRITE16,TFT_RD_HIGH,TFT_RD_LOW,endWrite,startWrite] noreturn:[endWrite]
+SPI_BEGIN_TRANSACTION call:[setBitOrder,setClockDivider,setDataMode] noreturn:[setDataMode]
+SPI_END_TRANSACTION
+spiWrite call:[SPI_MOSI_HIGH,SPI_MOSI_LOW,SPI_SCK_HIGH,SPI_SCK_LOW,TFT_WR_STROBE,_BV] noreturn:[SPI_MOSI_HIGH,SPI_MOSI_LOW,SPI_SCK_LOW,TFT_WR_STROBE]
+writeCommand call:[SPI_DC_HIGH,SPI_DC_LOW,spiWrite] noreturn:[SPI_DC_HIGH]
+spiRead call:[SPI_MISO_READ,SPI_SCK_HIGH,SPI_SCK_LOW,TFT_RD_LOW,transfer] noreturn:[SPI_SCK_LOW,transfer]
+write16 call:[TFT_WR_STROBE] noreturn:[TFT_WR_STROBE]
+writeCommand16 call:[SPI_DC_HIGH,SPI_DC_LOW,write16] noreturn:[SPI_DC_HIGH]
+read16 call:[TFT_RD_HIGH,TFT_RD_LOW] noreturn:[TFT_RD_HIGH]
+SPI_MOSI_HIGH
+SPI_MOSI_LOW
+SPI_SCK_HIGH
+SPI_SCK_LOW
+SPI_MISO_READ
+SPI_WRITE16 call:[SPI_MOSI_HIGH,SPI_MOSI_LOW,SPI_SCK_HIGH,SPI_SCK_LOW,TFT_WR_STROBE,_BV] noreturn:[SPI_MOSI_HIGH,SPI_MOSI_LOW,TFT_WR_STROBE]
+SPI_WRITE32 call:[SPI_MOSI_HIGH,SPI_MOSI_LOW,SPI_SCK_HIGH,SPI_SCK_LOW,TFT_WR_STROBE,_BV] noreturn:[SPI_MOSI_HIGH,SPI_MOSI_LOW,TFT_WR_STROBE]
+TFT_WR_STROBE
+TFT_RD_HIGH
+TFT_RD_LOW

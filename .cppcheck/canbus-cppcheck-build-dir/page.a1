@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2856220458">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Page::items&apos; is not initialized in the constructor." verbose="Member variable &apos;Page::items&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="4" column="7"/>
+            <symbol>Page::items</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="Page" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.h" line="5" col="1" hash="12781308663402033616"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="addItem" lineNumber="13"/>
+    <functiondecl functionName="removeItem" lineNumber="18"/>
+    <functiondecl functionName="draw" lineNumber="22"/>
+    <functiondecl functionName="contains" lineNumber="31"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="Page"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="_itemIndex"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="draw"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="itoa"/>
+    <functioncall functionName="press"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="setIndex"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

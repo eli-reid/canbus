@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1079754261">
+  <FileInfo check="Class">
+<class name="GFXcanvas1SerialDemo" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/examples/GFXcanvas/GFXcanvasSerialDemo.h" line="11" col="1" hash="15949388044405704780"/>
+<class name="GFXcanvas8SerialDemo" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/examples/GFXcanvas/GFXcanvasSerialDemo.h" line="31" col="1" hash="11898037442025444306"/>
+<class name="GFXcanvas16SerialDemo" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_GFX_Library/examples/GFXcanvas/GFXcanvasSerialDemo.h" line="51" col="1" hash="14767414879534185204"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="print" lineNumber="7"/>
+    <functiondecl functionName="print" lineNumber="37"/>
+    <functiondecl functionName="print" lineNumber="67"/>
+    <functioncall functionName="GFXcanvas1"/>
+    <functioncall functionName="GFXcanvas16"/>
+    <functioncall functionName="GFXcanvas16SerialDemo"/>
+    <functioncall functionName="GFXcanvas1SerialDemo"/>
+    <functioncall functionName="GFXcanvas8"/>
+    <functioncall functionName="GFXcanvas8SerialDemo"/>
+    <functioncall functionName="HEIGHT"/>
+    <functioncall functionName="WIDTH"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getPixel"/>
+    <functioncall functionName="getRawPixel"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="pixel"/>
+    <functioncall functionName="pixel_buffer"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="rotated"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

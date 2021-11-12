@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2787319550">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_init&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_init&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="2" column="9"/>
+            <symbol>button::_init</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_w&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_w&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_w</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_h&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_h&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_h</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_x&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_x&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_x</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_y&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_y&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_y</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_fillColor&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_fillColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_fillColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_borderColor&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_borderColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_borderColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_textColor&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_textColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_textColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_textSize&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_textSize&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_textSize</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_visible&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_visible&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_visible</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_label&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_label&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_label</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_display&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_display&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.cpp" line="9" column="9"/>
+            <symbol>button::_display</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="button" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.h" line="15" col="1" hash="8450432083899811490"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="drawButton" lineNumber="17"/>
+    <functiondecl functionName="init" lineNumber="22"/>
+    <functioncall functionName="borderColor"/>
+    <functioncall functionName="button"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fillColor"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="textColor"/>
+    <functioncall functionName="textSize"/>
+    <functioncall functionName="visible"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

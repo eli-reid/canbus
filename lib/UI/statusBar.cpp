@@ -1,5 +1,7 @@
 #include "statusBar.h"
-
+statusBar::statusBar(){
+    
+}
 statusBar::statusBar(Elegoo_GFX  *display, 
         int16_t h, int16_t w, 
         int8_t textSize, 

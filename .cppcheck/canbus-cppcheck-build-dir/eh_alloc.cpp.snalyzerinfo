@@ -1,0 +1,21 @@
+div call:[ldiv] noreturn:[ldiv]
+memchr call:[memchr] noreturn:[memchr]
+strchr call:[strchr] noreturn:[strchr]
+strpbrk call:[strpbrk] noreturn:[strpbrk]
+strrchr call:[strrchr] noreturn:[strrchr]
+strstr call:[strstr] noreturn:[strstr]
+exception
+bad_exception
+type_info
+name
+operator!= call:[operator==] noreturn:[operator==]
+bad_cast
+bad_typeid
+__get_exception_header_from_obj
+__get_exception_header_from_ue
+__get_refcounted_exception_header_from_obj
+__get_refcounted_exception_header_from_ue
+__cxa_allocate_exception call:[malloc,memset,return,sizeof,terminate] noreturn:[terminate]
+__cxa_free_exception call:[free,sizeof] noreturn:[free]
+__cxa_allocate_dependent_exception call:[malloc,memset,sizeof,terminate] noreturn:[terminate]
+__cxa_free_dependent_exception call:[free] noreturn:[free]

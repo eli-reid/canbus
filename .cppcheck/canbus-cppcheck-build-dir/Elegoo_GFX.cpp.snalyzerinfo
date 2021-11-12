@@ -1,0 +1,41 @@
+Elegoo_GFX
+drawCircle call:[drawPixel] noreturn:[drawPixel]
+drawCircleHelper call:[drawPixel] noreturn:[drawPixel]
+fillCircle call:[drawFastVLine,fillCircleHelper] noreturn:[fillCircleHelper]
+fillCircleHelper call:[drawFastVLine] noreturn:[drawFastVLine]
+drawLine call:[abs,drawPixel] noreturn:[drawPixel]
+drawRect call:[drawFastHLine,drawFastVLine] noreturn:[drawFastVLine]
+drawFastVLine call:[drawLine] noreturn:[drawLine]
+drawFastHLine call:[drawLine] noreturn:[drawLine]
+fillRect call:[drawFastVLine] noreturn:[drawFastVLine]
+fillScreen call:[fillRect] noreturn:[fillRect]
+drawRoundRect call:[drawCircleHelper,drawFastHLine,drawFastVLine] noreturn:[drawCircleHelper]
+fillRoundRect call:[fillCircleHelper,fillRect] noreturn:[fillCircleHelper]
+drawTriangle call:[drawLine] noreturn:[drawLine]
+fillTriangle call:[drawFastHLine] noreturn:[drawFastHLine]
+drawBitmap call:[drawPixel,pgm_read_byte] noreturn:[drawPixel]
+drawBitmap call:[drawPixel,pgm_read_byte] noreturn:[drawPixel]
+drawXBitmap call:[drawPixel,pgm_read_byte] noreturn:[drawPixel]
+write call:[drawChar]
+drawChar global:[font] call:[drawPixel,fillRect,pgm_read_byte] noreturn:[drawPixel,fillRect,pgm_read_byte]
+setCursor
+getCursorX
+getCursorY
+setTextSize
+setTextColor
+setTextColor
+setTextWrap
+getRotation
+setRotation
+cp437
+width
+height
+invertDisplay
+Elegoo_GFX_Button
+initButton call:[strncpy]
+drawButton call:[drawRoundRect,fillRoundRect,print,setCursor,setTextColor,setTextSize,strlen] noreturn:[print]
+contains
+press
+isPressed
+justPressed call:[return] noreturn:[return]
+justReleased call:[return] noreturn:[return]

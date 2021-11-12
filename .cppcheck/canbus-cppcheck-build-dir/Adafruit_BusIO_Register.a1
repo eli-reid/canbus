@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="604361031">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BusIO_Register::_spiregtype&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BusIO_Register::_spiregtype&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_BusIO_Register.cpp" line="18" column="26"/>
+            <symbol>Adafruit_BusIO_Register::_spiregtype</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_BusIO_Register.cpp" line="18" column="26"/>
+            <symbol>Adafruit_BusIO_Register::_buffer</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_BusIO_Register.cpp" line="45" column="26"/>
+            <symbol>Adafruit_BusIO_Register::_buffer</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BusIO_Register::_buffer&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_BusIO_Register.cpp" line="78" column="26"/>
+            <symbol>Adafruit_BusIO_Register::_buffer</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_I2CDevice.h" line="9" column="3"/>
+            <symbol>Adafruit_I2CDevice</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_SPIDevice&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_SPIDevice&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_SPIDevice.h" line="68" column="3"/>
+            <symbol>Adafruit_SPIDevice</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:65:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="161" col="15" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="170" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="243" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="266" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" call-funcname="print" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="289" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:74:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_BusIO_Register" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="42" col="1" hash="10084910363309862742"/>
+<class name="Adafruit_BusIO_RegisterBits" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="91" col="1" hash="17819969780597617585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:65:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="161" col="15" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="170" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="243" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="266" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" call-funcname="print" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="289" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:74:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_BusIO_Register" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="42" col="1" hash="10084910363309862742"/>
+<class name="Adafruit_BusIO_RegisterBits" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="91" col="1" hash="17819969780597617585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:65:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="161" col="15" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="170" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="243" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="266" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" call-funcname="print" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="289" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:74:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_BusIO_Register" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="42" col="1" hash="10084910363309862742"/>
+<class name="Adafruit_BusIO_RegisterBits" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="91" col="1" hash="17819969780597617585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:65:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="161" col="15" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="170" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="243" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="266" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" call-funcname="print" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="289" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:74:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_BusIO_Register" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="42" col="1" hash="10084910363309862742"/>
+<class name="Adafruit_BusIO_RegisterBits" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="91" col="1" hash="17819969780597617585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:65:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="161" col="15" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="170" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="243" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:59:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="266" col="12" call-argexpr="_buffer" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" call-funcname="print" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="289" col="3" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:74:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_BusIO_Register" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="42" col="1" hash="10084910363309862742"/>
+<class name="Adafruit_BusIO_RegisterBits" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h" line="91" col="1" hash="17819969780597617585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.h:73:8" my-argnr="1" my-argname="s" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_BusIO_Register.cpp" line="280" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="write" lineNumber="98"/>
+    <functiondecl functionName="write" lineNumber="142"/>
+    <functiondecl functionName="read" lineNumber="169"/>
+    <functiondecl functionName="readCached" lineNumber="192"/>
+    <functiondecl functionName="read" lineNumber="201"/>
+    <functiondecl functionName="read" lineNumber="242"/>
+    <functiondecl functionName="read" lineNumber="265"/>
+    <functiondecl functionName="print" lineNumber="278"/>
+    <functiondecl functionName="println" lineNumber="288"/>
+    <functiondecl functionName="read" lineNumber="311"/>
+    <functiondecl functionName="write" lineNumber="323"/>
+    <functiondecl functionName="width" lineNumber="341"/>
+    <functiondecl functionName="setWidth" lineNumber="347"/>
+    <functiondecl functionName="setAddress" lineNumber="353"/>
+    <functiondecl functionName="setAddressWidth" lineNumber="361"/>
+    <functiondecl functionName="write" lineNumber="98"/>
+    <functiondecl functionName="write" lineNumber="142"/>
+    <functiondecl functionName="read" lineNumber="169"/>
+    <functiondecl functionName="readCached" lineNumber="192"/>
+    <functiondecl functionName="read" lineNumber="201"/>
+    <functiondecl functionName="read" lineNumber="242"/>
+    <functiondecl functionName="read" lineNumber="265"/>
+    <functiondecl functionName="print" lineNumber="278"/>
+    <functiondecl functionName="println" lineNumber="288"/>
+    <functiondecl functionName="read" lineNumber="311"/>
+    <functiondecl functionName="write" lineNumber="323"/>
+    <functiondecl functionName="width" lineNumber="341"/>
+    <functiondecl functionName="setWidth" lineNumber="347"/>
+    <functiondecl functionName="setAddress" lineNumber="353"/>
+    <functiondecl functionName="setAddressWidth" lineNumber="361"/>
+    <functiondecl functionName="write" lineNumber="98"/>
+    <functiondecl functionName="write" lineNumber="142"/>
+    <functiondecl functionName="read" lineNumber="169"/>
+    <functiondecl functionName="readCached" lineNumber="192"/>
+    <functiondecl functionName="read" lineNumber="201"/>
+    <functiondecl functionName="read" lineNumber="242"/>
+    <functiondecl functionName="read" lineNumber="265"/>
+    <functiondecl functionName="print" lineNumber="278"/>
+    <functiondecl functionName="println" lineNumber="288"/>
+    <functiondecl functionName="read" lineNumber="311"/>
+    <functiondecl functionName="write" lineNumber="323"/>
+    <functiondecl functionName="width" lineNumber="341"/>
+    <functiondecl functionName="setWidth" lineNumber="347"/>
+    <functiondecl functionName="setAddress" lineNumber="353"/>
+    <functiondecl functionName="setAddressWidth" lineNumber="361"/>
+    <functiondecl functionName="write" lineNumber="98"/>
+    <functiondecl functionName="write" lineNumber="142"/>
+    <functiondecl functionName="read" lineNumber="169"/>
+    <functiondecl functionName="readCached" lineNumber="192"/>
+    <functiondecl functionName="read" lineNumber="201"/>
+    <functiondecl functionName="read" lineNumber="242"/>
+    <functiondecl functionName="read" lineNumber="265"/>
+    <functiondecl functionName="print" lineNumber="278"/>
+    <functiondecl functionName="println" lineNumber="288"/>
+    <functiondecl functionName="read" lineNumber="311"/>
+    <functiondecl functionName="write" lineNumber="323"/>
+    <functiondecl functionName="width" lineNumber="341"/>
+    <functiondecl functionName="setWidth" lineNumber="347"/>
+    <functiondecl functionName="setAddress" lineNumber="353"/>
+    <functiondecl functionName="setAddressWidth" lineNumber="361"/>
+    <functiondecl functionName="write" lineNumber="98"/>
+    <functiondecl functionName="write" lineNumber="142"/>
+    <functiondecl functionName="read" lineNumber="169"/>
+    <functiondecl functionName="readCached" lineNumber="192"/>
+    <functiondecl functionName="read" lineNumber="201"/>
+    <functiondecl functionName="read" lineNumber="242"/>
+    <functiondecl functionName="read" lineNumber="265"/>
+    <functiondecl functionName="print" lineNumber="278"/>
+    <functiondecl functionName="println" lineNumber="288"/>
+    <functiondecl functionName="read" lineNumber="311"/>
+    <functiondecl functionName="write" lineNumber="323"/>
+    <functiondecl functionName="width" lineNumber="341"/>
+    <functiondecl functionName="setWidth" lineNumber="347"/>
+    <functiondecl functionName="setAddress" lineNumber="353"/>
+    <functiondecl functionName="setAddressWidth" lineNumber="361"/>
+    <functioncall functionName="Adafruit_BusIO_Register"/>
+    <functioncall functionName="Adafruit_BusIO_RegisterBits"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HEX"/>
+    <functioncall functionName="LSBFIRST"/>
+    <functioncall functionName="MSBFIRST"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPI_BITORDER_MSBFIRST"/>
+    <functioncall functionName="SPI_LSBFIRST"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="SPI_MSBFIRST"/>
+    <functioncall functionName="Serial"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_addrwidth"/>
+    <functioncall functionName="_bits"/>
+    <functioncall functionName="_buffer"/>
+    <functioncall functionName="_i2cdevice"/>
+    <functioncall functionName="_spidevice"/>
+    <functioncall functionName="_width"/>
+    <functioncall functionName="addrbuffer"/>
+    <functioncall functionName="address"/>
+    <functioncall functionName="address_width"/>
+    <functioncall functionName="bits"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="byteorder"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="i2cdevice"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="numbytes"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="reg"/>
+    <functioncall functionName="reg_addr"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="shift"/>
+    <functioncall functionName="spidevice"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="write_then_read"/>
+  </FileInfo>
+</analyzerinfo>

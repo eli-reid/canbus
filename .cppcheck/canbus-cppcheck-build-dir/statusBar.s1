@@ -1,0 +1,7 @@
+statusBar
+statusBar
+printStatus call:[height,print,println,setCursor,setTextColor,setTextSize] noreturn:[setCursor]
+printStatus call:[printStatus,setStatus] noreturn:[printStatus]
+setStatus call:[clear,println]
+clear call:[fillRect,height] noreturn:[fillRect]
+draw call:[drawRect,fillRect,height] noreturn:[fillRect]

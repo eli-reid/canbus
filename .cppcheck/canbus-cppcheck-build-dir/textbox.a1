@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="364309523">
+  <FileInfo check="Class">
+<class name="textBox" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textBox.h" line="8" col="1" hash="3344975495752189026"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="textBox"/>
+  </FileInfo>
+</analyzerinfo>

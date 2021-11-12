@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2910146608">
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, &apos;if&apos; doesn&apos;t have two operands." verbose="Syntax Error: AST broken, &apos;if&apos; doesn&apos;t have two operands." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/avr_stl/src/complex.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\avr_stl\src\complex" line="188" column="5"/>
+        </error>
+</analyzerinfo>

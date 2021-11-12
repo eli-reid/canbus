@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2753168289">
+        <error id="missingOverride" severity="style" msg="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\statusBar.h" line="23" column="14" info="Function in derived class"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>draw</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="statusBar" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.h" line="5" col="1" hash="16663379990537952927"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="printStatus" lineNumber="29"/>
+    <functiondecl functionName="printStatus" lineNumber="42"/>
+    <functiondecl functionName="setStatus" lineNumber="49"/>
+    <functiondecl functionName="clear" lineNumber="56"/>
+    <functiondecl functionName="draw" lineNumber="66"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="_borderColor"/>
+    <functioncall functionName="_fillColor"/>
+    <functioncall functionName="_h"/>
+    <functioncall functionName="_status"/>
+    <functioncall functionName="_textColor"/>
+    <functioncall functionName="_textSize"/>
+    <functioncall functionName="_w"/>
+    <functioncall functionName="borderColor"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="drawRect"/>
+    <functioncall functionName="fillColor"/>
+    <functioncall functionName="fillRect"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="loc"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printStatus"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="setCursor"/>
+    <functioncall functionName="setStatus"/>
+    <functioncall functionName="setTextColor"/>
+    <functioncall functionName="setTextSize"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="statusBar"/>
+    <functioncall functionName="textColor"/>
+    <functioncall functionName="textSize"/>
+    <functioncall functionName="visible"/>
+    <functioncall functionName="w"/>
+  </FileInfo>
+</analyzerinfo>

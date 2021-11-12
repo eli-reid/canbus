@@ -1,0 +1,10 @@
+TSPoint
+TSPoint
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+getPoint call:[TSPoint,analogRead,digitalPinToBitMask,digitalPinToPort,pinMode,portOutputRegister] noreturn:[TSPoint,analogRead]
+TouchScreen
+TouchScreen
+readTouchX call:[analogRead,digitalWrite,pinMode,return] noreturn:[return]
+readTouchY call:[analogRead,digitalWrite,pinMode,return] noreturn:[return]
+pressure call:[analogRead,digitalWrite,pinMode,readTouchX,return] noreturn:[return]

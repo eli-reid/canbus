@@ -1,0 +1,8 @@
+exception
+bad_exception
+operatornew
+operatordelete
+operatornew[]
+operatordelete[]
+div call:[ldiv] noreturn:[ldiv]
+operatornew call:[__throw_bad_alloc,malloc] noreturn:[__throw_bad_alloc]

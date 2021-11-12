@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4101011345">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="set_new_handler" lineNumber="27"/>
+    <functiondecl functionName="set_new_handler" lineNumber="27"/>
+    <functiondecl functionName="set_new_handler" lineNumber="27"/>
+    <functioncall functionName="__new_handler"/>
+    <functioncall functionName="bad_alloc"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="new_p"/>
+    <functioncall functionName="terminate_handler"/>
+    <functioncall functionName="throw"/>
+    <functioncall functionName="unexpected_handler"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

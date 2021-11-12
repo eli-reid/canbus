@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="58016198">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_w&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_w&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_w</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_h&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_h&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_h</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_x&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_x&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_x</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_y&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_y&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_y</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_fillColor&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_fillColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_fillColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_borderColor&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_borderColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_borderColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_textColor&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_textColor&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_textColor</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_textSize&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_textSize&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_textSize</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_index&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_index&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_index</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_visible&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_visible&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_visible</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_border&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_border&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_border</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_display&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_display&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
+            <symbol>Item::_display</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="Item" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.h" line="9" col="1" hash="11580113841149777611"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="draw" lineNumber="11"/>
+    <functiondecl functionName="setTextColor" lineNumber="15"/>
+    <functiondecl functionName="setTextSize" lineNumber="19"/>
+    <functiondecl functionName="setFillColor" lineNumber="23"/>
+    <functiondecl functionName="fill" lineNumber="27"/>
+    <functiondecl functionName="fill" lineNumber="31"/>
+    <functiondecl functionName="setIndex" lineNumber="35"/>
+    <functiondecl functionName="contains" lineNumber="39"/>
+    <functiondecl functionName="press" lineNumber="45"/>
+    <functiondecl functionName="isPressed" lineNumber="51"/>
+    <functiondecl functionName="justPressed" lineNumber="53"/>
+    <functiondecl functionName="justReleased" lineNumber="55"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="Item"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="currstate"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="laststate"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2643513547">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CHAR_BIT"/>
+    <functioncall functionName="__DBL_DIG__"/>
+    <functioncall functionName="__DBL_MANT_DIG__"/>
+    <functioncall functionName="__FLT_RADIX__"/>
+    <functioncall functionName="class"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="round_indeterminate"/>
+    <functioncall functionName="round_to_nearest"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

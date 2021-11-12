@@ -1,0 +1,104 @@
+setCursor
+setTextColor
+setTextColor
+setTextWrap
+cp437
+width
+height
+getRotation
+getCursorX
+getCursorY
+press
+isPressed
+getBuffer
+getBuffer
+getBuffer
+avoid_unused_const_variable_compiler_warning global:[font]
+pgm_read_glyph_ptr
+pgm_read_bitmap_ptr
+Adafruit_GFX
+writeLine call:[abs,writePixel] noreturn:[writePixel]
+startWrite
+writePixel call:[drawPixel] noreturn:[drawPixel]
+writeFastVLine call:[drawFastVLine] noreturn:[drawFastVLine]
+writeFastHLine call:[drawFastHLine] noreturn:[drawFastHLine]
+writeFillRect call:[fillRect] noreturn:[fillRect]
+endWrite
+drawFastVLine call:[endWrite,startWrite,writeLine] noreturn:[endWrite]
+drawFastHLine call:[endWrite,startWrite,writeLine] noreturn:[endWrite]
+fillRect call:[endWrite,startWrite,writeFastVLine] noreturn:[endWrite,writeFastVLine]
+fillScreen call:[fillRect] noreturn:[fillRect]
+drawLine call:[drawFastHLine,drawFastVLine,endWrite,startWrite,writeLine] noreturn:[drawFastHLine,drawFastVLine,endWrite]
+drawCircle call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawCircleHelper call:[writePixel] noreturn:[writePixel]
+fillCircle call:[endWrite,fillCircleHelper,startWrite,writeFastVLine] noreturn:[endWrite]
+fillCircleHelper call:[writeFastVLine] noreturn:[writeFastVLine]
+drawRect call:[endWrite,startWrite,writeFastHLine,writeFastVLine] noreturn:[endWrite]
+drawRoundRect call:[drawCircleHelper,endWrite,startWrite,writeFastHLine,writeFastVLine] noreturn:[endWrite]
+fillRoundRect call:[endWrite,fillCircleHelper,startWrite,writeFillRect] noreturn:[endWrite]
+drawTriangle call:[drawLine] noreturn:[drawLine]
+fillTriangle call:[endWrite,startWrite,writeFastHLine] noreturn:[endWrite,writeFastHLine]
+drawBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawXBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawGrayscaleBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawGrayscaleBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawGrayscaleBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawGrayscaleBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawRGBBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawRGBBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawRGBBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawRGBBitmap call:[endWrite,startWrite,writePixel] noreturn:[endWrite,writePixel]
+drawChar call:[drawChar] noreturn:[drawChar]
+drawChar global:[font] call:[endWrite,pgm_read_bitmap_ptr,pgm_read_glyph_ptr,startWrite,writeFastVLine,writeFillRect,writePixel] noreturn:[endWrite,writeFastVLine,writeFillRect,writePixel]
+setTextSize call:[setTextSize] noreturn:[setTextSize]
+setTextSize
+setRotation
+setFont
+charBounds call:[pgm_read_glyph_ptr]
+getTextBounds call:[charBounds] noreturn:[charBounds]
+getTextBounds call:[c_str,getTextBounds,length] noreturn:[getTextBounds]
+getTextBounds call:[charBounds] noreturn:[charBounds]
+invertDisplay
+Adafruit_GFX_Button
+initButton call:[initButtonUL] noreturn:[initButtonUL]
+initButton call:[initButtonUL] noreturn:[initButtonUL]
+initButtonUL call:[initButtonUL] noreturn:[initButtonUL]
+initButtonUL call:[strncpy]
+drawButton call:[drawRoundRect,fillRoundRect,print,setCursor,setTextColor,setTextSize,strlen] noreturn:[print]
+contains call:[return] noreturn:[return]
+justPressed call:[return] noreturn:[return]
+justReleased call:[return] noreturn:[return]
+GFXcanvas1 call:[malloc,memset] noreturn:[memset]
+GFXcanvas1 call:[free] noreturn:[free]
+drawPixel
+getPixel call:[getRawPixel] noreturn:[getRawPixel]
+getRawPixel call:[getBuffer,return]
+fillScreen call:[memset] noreturn:[memset]
+drawFastVLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastHLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastRawVLine call:[getBuffer]
+drawFastRawHLine call:[getBuffer,memset]
+GFXcanvas8 call:[malloc,memset] noreturn:[memset]
+GFXcanvas8 call:[free] noreturn:[free]
+drawPixel
+getPixel call:[getRawPixel] noreturn:[getRawPixel]
+getRawPixel
+fillScreen call:[memset] noreturn:[memset]
+drawFastVLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastHLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastRawVLine
+drawFastRawHLine call:[memset] noreturn:[memset]
+GFXcanvas16 call:[malloc,memset] noreturn:[memset]
+GFXcanvas16 call:[free] noreturn:[free]
+drawPixel
+getPixel call:[getRawPixel] noreturn:[getRawPixel]
+getRawPixel
+fillScreen call:[memset] noreturn:[memset]
+byteSwap call:[__builtin_bswap16] noreturn:[__builtin_bswap16]
+drawFastVLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastHLine call:[drawFastRawHLine,drawFastRawVLine,getRotation,height,width] noreturn:[drawFastRawHLine,drawFastRawVLine]
+drawFastRawVLine
+drawFastRawHLine

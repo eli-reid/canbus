@@ -24,18 +24,18 @@ void Page::draw(){
     char s[5];
     for(int i=0; i < _itemIndex; i++ ){
         items[i]->draw();
-        Serial.println(itoa(i,s,0));
+        Serial.println(itoa(i,s,5));
     }
-
-
 }
 
 void Page::contains(int16_t x, int16_t y){
 
     for(int i=0; i < _itemIndex; i++ ){
+        Serial.println("checking");
         if(items[i]->contains(x,y))
             items[i]->press(true);
         else
             items[i]->press(false);
     }
+    
 }

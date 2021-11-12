@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3012270654">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="screen_init" lineNumber="4"/>
+    <functioncall functionName="A0"/>
+    <functioncall functionName="A1"/>
+    <functioncall functionName="A2"/>
+    <functioncall functionName="A3"/>
+    <functioncall functionName="A4"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="fillScreen"/>
+    <functioncall functionName="identifier"/>
+    <functioncall functionName="readID"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="setRotation"/>
+  </FileInfo>
+</analyzerinfo>

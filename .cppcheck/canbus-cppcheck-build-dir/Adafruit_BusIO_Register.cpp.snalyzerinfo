@@ -1,0 +1,20 @@
+maxBufferSize
+Adafruit_BusIO_Register
+Adafruit_BusIO_Register
+Adafruit_BusIO_Register
+write call:[write] noreturn:[write]
+write call:[write] noreturn:[write]
+read call:[read]
+readCached
+read call:[write_then_read] noreturn:[write_then_read]
+read call:[read]
+read call:[read]
+print call:[print,read] noreturn:[print]
+println call:[print,println] noreturn:[println]
+Adafruit_BusIO_RegisterBits
+read call:[read]
+write call:[read,width,write] noreturn:[write]
+width
+setWidth
+setAddress
+setAddressWidth

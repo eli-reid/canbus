@@ -6,6 +6,7 @@
 #include "statusBar.h"
 #include "menu.h"
 #include "mainPage.h"
+#include "touchInput.h"
 
 
 

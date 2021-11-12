@@ -1,0 +1,2 @@
+enbit call:[printf] noreturn:[printf]
+main call:[FT_Done_FreeType,FT_Done_Glyph,FT_Get_Glyph,FT_Init_FreeType,FT_Load_Char,FT_New_Face,FT_Property_Set,FT_Render_Glyph,FT_Set_Char_Size,atoi,enbit,fprintf,ispunct,isspace,malloc,printf,putchar,sizeof,sprintf,strcpy,strlen,strrchr] noreturn:[FT_Done_Glyph,atoi,enbit,printf,putchar]

@@ -1,0 +1,6 @@
+GFXcanvas1SerialDemo
+print call:[getPixel,getRawPixel,height,print,sprintf,width] noreturn:[getPixel,getRawPixel,height,print]
+GFXcanvas8SerialDemo
+print call:[getPixel,getRawPixel,height,print,sprintf,width] noreturn:[getPixel,getRawPixel,height,print]
+GFXcanvas16SerialDemo
+print call:[getPixel,getRawPixel,height,print,sprintf,width] noreturn:[getPixel,getRawPixel,height,print]

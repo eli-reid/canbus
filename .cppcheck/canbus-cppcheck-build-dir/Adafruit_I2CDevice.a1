@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3547789001">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\.pio\libdeps\megaatmega2560\Adafruit_BusIO\Adafruit_I2CDevice.h" line="9" column="3"/>
+            <symbol>Adafruit_I2CDevice</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:15:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="224" col="8" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:14:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="228" col="10" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h" line="7" col="1" hash="7134883469534366891"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:15:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="224" col="8" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:14:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="228" col="10" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h" line="7" col="1" hash="15952363690888437995"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:15:8" call-funcname="write" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="224" col="8" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="1"/>
+<function-call call-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:14:8" call-funcname="read" call-argnr="1" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.cpp" line="228" col="10" my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h:17:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/.pio/libdeps/megaatmega2560/Adafruit_BusIO/Adafruit_I2CDevice.h" line="7" col="1" hash="264941947391447529"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="begin" lineNumber="29"/>
+    <functiondecl functionName="detected" lineNumber="44"/>
+    <functiondecl functionName="write" lineNumber="77"/>
+    <functiondecl functionName="read" lineNumber="159"/>
+    <functiondecl functionName="_read" lineNumber="172"/>
+    <functiondecl functionName="write_then_read" lineNumber="221"/>
+    <functiondecl functionName="address" lineNumber="235"/>
+    <functiondecl functionName="setSpeed" lineNumber="244"/>
+    <functiondecl functionName="begin" lineNumber="29"/>
+    <functiondecl functionName="detected" lineNumber="44"/>
+    <functiondecl functionName="write" lineNumber="77"/>
+    <functiondecl functionName="read" lineNumber="159"/>
+    <functiondecl functionName="_read" lineNumber="172"/>
+    <functiondecl functionName="write_then_read" lineNumber="221"/>
+    <functiondecl functionName="address" lineNumber="235"/>
+    <functiondecl functionName="setSpeed" lineNumber="244"/>
+    <functiondecl functionName="begin" lineNumber="29"/>
+    <functiondecl functionName="detected" lineNumber="44"/>
+    <functiondecl functionName="write" lineNumber="77"/>
+    <functiondecl functionName="read" lineNumber="159"/>
+    <functiondecl functionName="_read" lineNumber="172"/>
+    <functiondecl functionName="write_then_read" lineNumber="221"/>
+    <functiondecl functionName="address" lineNumber="235"/>
+    <functiondecl functionName="setSpeed" lineNumber="244"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_addr"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="addr_detect"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="desiredclk"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="prefix_buffer"/>
+    <functioncall functionName="prefix_len"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="read_buffer"/>
+    <functioncall functionName="read_len"/>
+    <functioncall functionName="read_stop"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="stop"/>
+    <functioncall functionName="theWire"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="write_buffer"/>
+    <functioncall functionName="write_len"/>
+  </FileInfo>
+</analyzerinfo>

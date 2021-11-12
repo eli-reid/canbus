@@ -18,7 +18,7 @@ public:
             uint16_t fillColor = WHITE,
             uint16_t textColor = BLUE );
     ~Menu();
-    void draw();
+    virtual void draw() override;
     void print(String p);
 };
 
