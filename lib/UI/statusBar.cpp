@@ -2,7 +2,7 @@
 statusBar::statusBar(){
     
 }
-statusBar::statusBar(Elegoo_GFX  *display, 
+statusBar::statusBar(Elegoo_GFX  *display, String name, 
         int16_t h, int16_t w, 
         int8_t textSize, 
         bool visible, 
@@ -14,6 +14,9 @@ statusBar::statusBar(Elegoo_GFX  *display,
 
     _w = w;
     _h = h;
+    _x=0;
+    _y=0;
+    _name = name;
     _textSize =  textSize;
     _visible = visible;
     _location =  loc; 
@@ -58,18 +61,20 @@ void statusBar::setStatus(String status)
 void statusBar::clear(){
         if(_location == BOTTOM)
     {
-        _display->fillRect(1,_display->height()-_h-1,_w-2,_h-2, _fillColor);
+        _display->fillRect(_x+1,_y-1,_w-2,_h-2, _fillColor);
     }
     else
     {
-        _display->fillRect(1,1,_w-2,_h-2, _fillColor);
+        _display->fillRect(_x+1,_y+1,_w-2,_h-2, _fillColor);
     }
 }
 void statusBar::draw() {
     if(_location == BOTTOM)
-    {
-        _display->drawRect(0,_display->height()-_h,_w,_h, _borderColor);
-        _display->fillRect(1,_display->height()-_h-1,_w-2,_h-2, _fillColor);
+    {   
+        _x=0;
+        _y =_display->height()-_h;
+        _display->drawRect(_x,_y-_h,_w,_h, _borderColor);
+        _display->fillRect(_x+1,_y-_h-1,_w-2,_h-2, _fillColor);
     }
     else
     {

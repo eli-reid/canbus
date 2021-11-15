@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="478274336">
-        <error id="missingOverride" severity="style" msg="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menu.h" line="21" column="10" info="Function in derived class"/>
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="26" column="18" info="Virtual function in base class"/>
-            <symbol>draw</symbol>
-        </error>
+<analyzerinfo checksum="2232821553">
+  <FileInfo check="Class">
+<class name="Menu" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.h" line="6" col="1" hash="11100617631286812748"/>
+  </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="draw" lineNumber="29"/>
-    <functiondecl functionName="print" lineNumber="45"/>
+    <functiondecl functionName="draw" lineNumber="31"/>
+    <functiondecl functionName="print" lineNumber="51"/>
     <functioncall functionName="BOTTOM"/>
     <functioncall functionName="Menu"/>
     <functioncall functionName="TOP"/>
@@ -18,6 +16,7 @@
     <functioncall functionName="_textSize"/>
     <functioncall functionName="_w"/>
     <functioncall functionName="borderColor"/>
+    <functioncall functionName="const"/>
     <functioncall functionName="display"/>
     <functioncall functionName="drawRect"/>
     <functioncall functionName="fillColor"/>
@@ -26,6 +25,7 @@
     <functioncall functionName="height"/>
     <functioncall functionName="if"/>
     <functioncall functionName="loc"/>
+    <functioncall functionName="override"/>
     <functioncall functionName="p"/>
     <functioncall functionName="print"/>
     <functioncall functionName="return"/>

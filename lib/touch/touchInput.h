@@ -23,7 +23,7 @@ private:
     Elegoo_GFX *_screen;
 public:
     touchInput();
-    explicit touchInput(Elegoo_GFX* screen);
+    void init(Elegoo_GFX* screen);
     ~touchInput();
     TSPoint getPoint();
     bool check();

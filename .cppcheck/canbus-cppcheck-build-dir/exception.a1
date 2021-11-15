@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<analyzerinfo checksum="1213904493">
-  <FileInfo check="CheckUnusedFunctions">
-    <functioncall functionName="terminate_handler"/>
-    <functioncall functionName="throw"/>
-    <functioncall functionName="unexpected_handler"/>
-  </FileInfo>
-</analyzerinfo>

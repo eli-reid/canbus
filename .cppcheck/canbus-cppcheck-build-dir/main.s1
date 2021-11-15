@@ -1,4 +1,2 @@
-mainPage call:[Menu,addItem,statusBar,width] noreturn:[addItem]
-mainPage
-setup global:[screen] call:[begin,draw,mainPageInit,screen_init] noreturn:[draw]
-loop call:[delay] noreturn:[delay]
+setup global:[mp,ti] call:[begin,draw,init,println,screen_init] noreturn:[println]
+loop global:[mp,ti,tx,ty] call:[check,contains,delay,getPoint] noreturn:[contains,delay]

@@ -4,13 +4,14 @@
 #include "item.h"
 class Page
 {
-private:
+protected:
     Item *items[20];
     int _itemIndex;
 public:
 
     Page(/* args */);
     ~Page();
+   
     void draw();
     void addItem(Item *item);
     void removeItem(int index);

@@ -7,8 +7,10 @@ setFillColor
 fill
 fill
 setIndex
-contains
+contains call:[print,println]
 press
 isPressed
 justPressed call:[return] noreturn:[return]
 justReleased call:[return] noreturn:[return]
+setName
+getName

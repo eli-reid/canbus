@@ -1,19 +1,14 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="2753168289">
-        <error id="missingOverride" severity="style" msg="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;draw&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\statusBar.h" line="23" column="14" info="Function in derived class"/>
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="26" column="18" info="Virtual function in base class"/>
-            <symbol>draw</symbol>
-        </error>
+<analyzerinfo checksum="1601669943">
   <FileInfo check="Class">
-<class name="statusBar" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.h" line="5" col="1" hash="16663379990537952927"/>
+<class name="statusBar" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.h" line="5" col="1" hash="11539158083266761473"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="printStatus" lineNumber="29"/>
-    <functiondecl functionName="printStatus" lineNumber="42"/>
-    <functiondecl functionName="setStatus" lineNumber="49"/>
-    <functiondecl functionName="clear" lineNumber="56"/>
-    <functiondecl functionName="draw" lineNumber="66"/>
+    <functiondecl functionName="printStatus" lineNumber="33"/>
+    <functiondecl functionName="printStatus" lineNumber="46"/>
+    <functiondecl functionName="setStatus" lineNumber="53"/>
+    <functiondecl functionName="clear" lineNumber="60"/>
+    <functiondecl functionName="draw" lineNumber="70"/>
     <functioncall functionName="BOTTOM"/>
     <functioncall functionName="TOP"/>
     <functioncall functionName="_borderColor"/>
@@ -23,8 +18,10 @@
     <functioncall functionName="_textColor"/>
     <functioncall functionName="_textSize"/>
     <functioncall functionName="_w"/>
+    <functioncall functionName="_x"/>
     <functioncall functionName="borderColor"/>
     <functioncall functionName="clear"/>
+    <functioncall functionName="const"/>
     <functioncall functionName="display"/>
     <functioncall functionName="drawRect"/>
     <functioncall functionName="fillColor"/>
@@ -33,6 +30,7 @@
     <functioncall functionName="height"/>
     <functioncall functionName="if"/>
     <functioncall functionName="loc"/>
+    <functioncall functionName="override"/>
     <functioncall functionName="print"/>
     <functioncall functionName="printStatus"/>
     <functioncall functionName="println"/>

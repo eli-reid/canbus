@@ -1,12 +1,5 @@
 #include "item.h"
 
-Item::Item(/* args */)
-{
-}
-
-Item::~Item()
-{
-}
 
 void Item::draw() {
  
@@ -38,15 +31,17 @@ void Item::setIndex(int index){
 
 boolean Item::contains(int16_t x, int16_t y) {
 
-  //if ((x < (_x - _w/2)) || (x > (_x + _w/2))) return false;
-   Serial.println("trying to touch me");
-   if ((y < (_y - _h/2)) || (y > (_y + _h/2))) return false;
-   Serial.println("stop touchng me");
-   return true;
+
+  if ((x <(_x - _w)) || (x > (_x + _w))) return false;
+  if ((y < (_y - _h)) || (y > (_y + _h))) return false;
+  Serial.println("*************** ITEM::CONTIANS********************");
+  Serial.print("X= "); Serial.print(x); Serial.print(" < ");Serial.print(_x - _w);Serial.print(" > ");Serial.println((_x + _w));
+  Serial.print("Y= "); Serial.print(y); Serial.print(" < ");Serial.print((_y - _h));Serial.print(" > ");Serial.println((_y + _h));
+  Serial.print(_name); Serial.println(" stop touchng me");
+  return true;
  }
 
  void Item::press(boolean p) {
-      Serial.println(p);
    laststate = currstate;
    currstate = p;
 
@@ -57,3 +52,11 @@ boolean Item::contains(int16_t x, int16_t y) {
  boolean Item::justPressed() { return (currstate && !laststate); }
 
  boolean Item::justReleased() { return (!currstate && laststate); }
+
+void Item::setName(String name){
+  _name = name;
+}
+
+String Item::getName() const{
+  return _name;
+}

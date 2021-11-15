@@ -1,34 +1,24 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="2818596681">
-        <error id="useInitializationList" severity="performance" msg="Variable &apos;statbar&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;statbar&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/src/main.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\include\mainPage.h" line="25" column="9"/>
-            <symbol>statbar</symbol>
-        </error>
-        <error id="noExplicitConstructor" severity="style" msg="Class &apos;mainPage&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;mainPage&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/src/main.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\include\mainPage.h" line="19" column="9"/>
-            <symbol>mainPage</symbol>
-        </error>
-  <FileInfo check="Class">
-<class name="mainPage" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/include/mainPage.h" line="11" col="1" hash="12734174281667692915"/>
-  </FileInfo>
+<analyzerinfo checksum="2210289301">
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="setup" lineNumber="3"/>
-    <functiondecl functionName="loop" lineNumber="10"/>
-    <functioncall functionName="BOTTOM"/>
-    <functioncall functionName="Menu"/>
-    <functioncall functionName="TOP"/>
-    <functioncall functionName="addItem"/>
+    <functiondecl functionName="setup" lineNumber="5"/>
+    <functiondecl functionName="loop" lineNumber="18"/>
     <functioncall functionName="begin"/>
+    <functioncall functionName="check"/>
+    <functioncall functionName="contains"/>
     <functioncall functionName="delay"/>
     <functioncall functionName="draw"/>
+    <functioncall functionName="getPoint"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
     <functioncall functionName="mainPage"/>
-    <functioncall functionName="mainPageInit"/>
-    <functioncall functionName="menu"/>
+    <functioncall functionName="println"/>
     <functioncall functionName="screen"/>
     <functioncall functionName="screen_init"/>
-    <functioncall functionName="statbar"/>
-    <functioncall functionName="statusBar"/>
-    <functioncall functionName="true"/>
-    <functioncall functionName="width"/>
+    <functioncall functionName="touchInput"/>
+    <functioncall functionName="tx"/>
+    <functioncall functionName="ty"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
   </FileInfo>
 </analyzerinfo>

@@ -9,7 +9,7 @@ class statusBar: public Item
 
      public:
      statusBar();
-        statusBar(Elegoo_GFX *display, int16_t h, int16_t w, 
+        statusBar(Elegoo_GFX *display, String name, int16_t h, int16_t w, 
             int8_t textSize, 
             bool visible, bool border, 
             location_enum loc, 
@@ -21,7 +21,7 @@ class statusBar: public Item
         void printStatus();
         void printStatus(String status);
         void setStatus(String status);
-        void draw();
+        void draw() override;
         void clear();
         //TODO: add clicked events
 };

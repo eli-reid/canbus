@@ -1,23 +1,27 @@
 #include "main.h"
-mainPage mainpage;
-touchInput ti;
+int16_t tx,ty;
+mainPage mp = mainPage();
+touchInput ti = touchInput();
 void setup(){
-        Serial.begin(9600);
+        
+        Serial.println("*************** SETUP ********************");
+
         screen_init();
-        touchInput ti(&screen);
-        mainPage mainpage(&screen);
-        mainpage.draw();
+        Serial.begin(9600);
+        ti.init(&screen);
+        mp.init(&screen);
+        mp.draw();
+        Serial.println("*************** SETUP COMPLETE ********************");
+       
         }
 
 void loop(){
       if(ti.check()) {
-        Serial.println("t");
-        int16_t x=ti.getPoint().x;
-        int16_t y= ti.getPoint().y;
-        mainpage.menu.contains(x,y);
-        mainpage.contains(x,y);
-        delete &x, &y;         
-            
+
+        tx = ti.getPoint().x;
+        ty = ti.getPoint().y;
+        mp.contains(tx,ty);
+ 
       }        
      delay(100);
     

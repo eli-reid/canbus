@@ -1,6 +1,6 @@
 Page
 Page
-addItem call:[setIndex] noreturn:[setIndex]
+addItem call:[print,println,setIndex] noreturn:[println]
 removeItem
-draw call:[delay,draw,itoa,println] noreturn:[println]
-contains call:[contains,press,println] noreturn:[press]
+draw call:[draw,print,println] noreturn:[draw,println]
+contains call:[contains,press,print,println] noreturn:[press]

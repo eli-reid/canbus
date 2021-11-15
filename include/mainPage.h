@@ -20,11 +20,10 @@ public:
 void mainPage::init(Elegoo_GFX *screen)
 {        
         _itemIndex = 0;      
-        sb=statusBar(screen,20, screen->width(),1,true,true,BOTTOM);
-        menu =  Menu(screen,30,screen->width(),2,true,true,TOP);
-        
-        menu.setName("Main_Menu");
-        sb.setName("StatusBar");
+        sb=statusBar(screen,"StatusBar",20, screen->width(),1,true,true,BOTTOM);
+        menu =  Menu(screen,"MenuBar",30,screen->width(),2,true,true,TOP);
+
+
         addItem(&menu);
         addItem(&sb);
         

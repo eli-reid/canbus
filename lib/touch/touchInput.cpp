@@ -1,15 +1,15 @@
 #include "touchInput.h"
 
 touchInput::touchInput(){
-
-}
-
-touchInput::touchInput(Elegoo_GFX* screen) {
-    _screen = screen;
+    _screen = NULL;
 }
 
 touchInput::~touchInput()
 {
+    
+}
+void touchInput::init(Elegoo_GFX* screen){
+    _screen = screen;
 }
 
 bool touchInput:: check()
@@ -26,7 +26,6 @@ bool touchInput:: check()
         return true;
    }
    return false;
-
 }
 
 TSPoint touchInput::getPoint(){return _point;}

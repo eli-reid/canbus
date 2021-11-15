@@ -1,6 +1,6 @@
 #include "menu.h"
 Menu::Menu(){}
-Menu::Menu  (Elegoo_GFX  *display, 
+Menu::Menu  (Elegoo_GFX  *display, String name,
         int16_t h, int16_t w, 
         int8_t textSize, 
         bool visible, 
@@ -12,6 +12,9 @@ Menu::Menu  (Elegoo_GFX  *display,
         {
             _w = w;
             _h = h;
+            _x=0;
+            _y=0;
+            _name = name;
             _textSize =  textSize;
             _visible = visible;
             _location =  loc; 

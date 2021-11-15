@@ -10,7 +10,7 @@ private:
     
 public:
     Menu();
-    Menu(Elegoo_GFX *display, int16_t h, int16_t w, 
+    Menu(Elegoo_GFX *display,String name, int16_t h, int16_t w, 
             int8_t textSize, 
             bool visible, bool border, 
             location_enum loc, 

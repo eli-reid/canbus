@@ -1,9 +1,0 @@
-exception
-bad_exception
-type_info
-name
-operator!= call:[operator==] noreturn:[operator==]
-bad_cast
-bad_typeid
-bad_cast
-bad_typeid

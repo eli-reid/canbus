@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="58016198">
+<analyzerinfo checksum="111501596">
         <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Item::_w&apos; is not initialized in the constructor." verbose="Member variable &apos;Item::_w&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.cpp">
             <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.cpp" line="3" column="7"/>
             <symbol>Item::_w</symbol>
@@ -49,7 +49,7 @@
             <symbol>Item::_display</symbol>
         </error>
   <FileInfo check="Class">
-<class name="Item" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.h" line="9" col="1" hash="11580113841149777611"/>
+<class name="Item" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/item.h" line="9" col="1" hash="559178734425923604"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
     <functiondecl functionName="draw" lineNumber="11"/>
@@ -60,18 +60,26 @@
     <functiondecl functionName="fill" lineNumber="31"/>
     <functiondecl functionName="setIndex" lineNumber="35"/>
     <functiondecl functionName="contains" lineNumber="39"/>
-    <functiondecl functionName="press" lineNumber="45"/>
-    <functiondecl functionName="isPressed" lineNumber="51"/>
-    <functiondecl functionName="justPressed" lineNumber="53"/>
-    <functiondecl functionName="justReleased" lineNumber="55"/>
+    <functiondecl functionName="press" lineNumber="51"/>
+    <functiondecl functionName="isPressed" lineNumber="57"/>
+    <functiondecl functionName="justPressed" lineNumber="59"/>
+    <functiondecl functionName="justReleased" lineNumber="61"/>
+    <functiondecl functionName="setName" lineNumber="63"/>
+    <functiondecl functionName="getName" lineNumber="67"/>
     <functioncall functionName="BOTTOM"/>
     <functioncall functionName="Item"/>
     <functioncall functionName="TOP"/>
+    <functioncall functionName="_name"/>
+    <functioncall functionName="_w"/>
+    <functioncall functionName="const"/>
     <functioncall functionName="currstate"/>
     <functioncall functionName="if"/>
     <functioncall functionName="index"/>
     <functioncall functionName="laststate"/>
+    <functioncall functionName="name"/>
     <functioncall functionName="p"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
     <functioncall functionName="return"/>
     <functioncall functionName="x"/>
     <functioncall functionName="y"/>

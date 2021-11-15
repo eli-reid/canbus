@@ -1,7 +1,0 @@
-exception
-bad_exception
-operatornew
-operatordelete
-operatornew[]
-operatordelete[]
-set_new_handler global:[__new_handler] call:[void]

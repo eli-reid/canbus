@@ -1,24 +1,19 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="3788415523">
-        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\touch\touchInput.cpp" line="24" column="4"/>
-        </error>
-        <error id="useInitializationList" severity="performance" msg="Variable &apos;_screen&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;_screen&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\touch\touchInput.cpp" line="5" column="5"/>
-            <symbol>_screen</symbol>
-        </error>
-        <error id="noExplicitConstructor" severity="style" msg="Class &apos;touchInput&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;touchInput&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\touch\touchInput.h" line="24" column="5"/>
-            <symbol>touchInput</symbol>
-        </error>
+<analyzerinfo checksum="3009978505">
+  <FileInfo check="Class">
+<class name="touchInput" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.h" line="18" col="1" hash="3045379873691644910"/>
+  </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="check" lineNumber="13"/>
+    <functiondecl functionName="init" lineNumber="11"/>
+    <functiondecl functionName="check" lineNumber="15"/>
+    <functiondecl functionName="getPoint" lineNumber="32"/>
     <functioncall functionName="A2"/>
     <functioncall functionName="A3"/>
     <functioncall functionName="HIGH"/>
     <functioncall functionName="LOW"/>
+    <functioncall functionName="NULL"/>
     <functioncall functionName="OUTPUT"/>
-    <functioncall functionName="_tScreen"/>
+    <functioncall functionName="TouchScreen"/>
     <functioncall functionName="digitalWrite"/>
     <functioncall functionName="getPoint"/>
     <functioncall functionName="height"/>
