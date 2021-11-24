@@ -6,7 +6,8 @@
 class Menu: public Item{
 private:
     location_enum _location;
-    menuItem menuitem[6];
+    menuItem menuitems[6];
+    int _menuItemIndex;
     
 public:
     Menu();
@@ -19,6 +20,10 @@ public:
             uint16_t textColor = BLUE );
     ~Menu();
     virtual void draw() override;
+    void addMenuItem(menuItem menuitem);
+    void drawMenuItems();
+     
+  
     void print(String p);
 };
 

@@ -9,22 +9,20 @@ Menu::Menu  (Elegoo_GFX  *display, String name,
         uint16_t borderColor=BLUE, 
         uint16_t fillColor = WHITE, 
         uint16_t textColor = BLUE)
-        {
-            _w = w;
-            _h = h;
-            _x=0;
-            _y=0;
-            _name = name;
-            _textSize =  textSize;
-            _visible = visible;
-            _location =  loc; 
-            _display = display;
-            _fillColor = fillColor;
-            _borderColor = borderColor;
-            _textColor = textColor;     
-        }
-
-
+{
+    _w = w;
+    _h = h;
+    _x=0;
+    _y=0;
+    _name = name;
+    _textSize =  textSize;
+    _visible = visible;
+    _location =  loc; 
+    _display = display;
+    _fillColor = fillColor;
+    _borderColor = borderColor;
+    _textColor = textColor;     
+}
 
 Menu::~Menu()
 {
@@ -36,7 +34,6 @@ void Menu::draw(){
         _y = _display->height()-_h;
         _display->drawRect(0,_display->height()-_h,_w,_h, _borderColor);
         _display->fillRect(1,_display->height()-_h-1,_w-2,_h-2, _fillColor);
-
     }
     else
     {

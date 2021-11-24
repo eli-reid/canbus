@@ -41,10 +41,7 @@ void Page::contains(int16_t x, int16_t y){
     for(int i=0; i < _itemIndex; i++ ){
         Serial.println("*************** PAGE::CONTIANS::FOR LOOP********************");
         Serial.print("checking Item:"); Serial.println(i);
-        if(items[i]->contains(x,y))
-            items[i]->press(true);
-        else
-            items[i]->press(false);
+        items[i]->press(x,y);
     }
     
 }

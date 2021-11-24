@@ -30,7 +30,7 @@ public:
     void fill();
     void fill(int16_t color);
     boolean contains(int16_t x, int16_t y);
-    void press(boolean p);
+    void press(int16_t x, int16_t y);
     boolean isPressed();
     boolean justPressed();
     boolean justReleased();

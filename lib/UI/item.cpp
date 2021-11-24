@@ -30,21 +30,18 @@ void Item::setIndex(int index){
 }
 
 boolean Item::contains(int16_t x, int16_t y) {
-
-
   if ((x <(_x - _w)) || (x > (_x + _w))) return false;
   if ((y < (_y - _h)) || (y > (_y + _h))) return false;
-  Serial.println("*************** ITEM::CONTIANS********************");
+ /*  Serial.println("*************** ITEM::CONTIANS********************");
   Serial.print("X= "); Serial.print(x); Serial.print(" < ");Serial.print(_x - _w);Serial.print(" > ");Serial.println((_x + _w));
-  Serial.print("Y= "); Serial.print(y); Serial.print(" < ");Serial.print((_y - _h));Serial.print(" > ");Serial.println((_y + _h));
+  Serial.print("Y= "); Serial.print(y); Serial.print(" < ");Serial.print((_y - _h));Serial.print(" > ");Serial.println((_y + _h)); */
   Serial.print(_name); Serial.println(" stop touchng me");
   return true;
  }
 
- void Item::press(boolean p) {
+ void Item::press(int16_t x, int16_t y) {
    laststate = currstate;
-   currstate = p;
-
+   currstate =  contains(x,y);
  }
 
  boolean Item::isPressed() { return currstate; }
