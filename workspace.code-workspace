@@ -15,7 +15,11 @@
 			"vector": "cpp",
 			"functional": "cpp",
 			"memory": "cpp",
-			"ios": "cpp"
+			"ios": "cpp",
+			"algorithm": "cpp",
+			"set": "cpp",
+			"string": "cpp",
+			"valarray": "cpp"
 		}
 	}
 }

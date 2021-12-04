@@ -1,6 +1,7 @@
 #ifndef _PAGE_H
 #define _PAGE_H
 #include <stdint.h>
+#include <string.h>
 #include "item.h"
 class Page
 {

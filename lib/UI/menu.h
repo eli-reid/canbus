@@ -19,11 +19,8 @@ public:
             uint16_t fillColor = WHITE,
             uint16_t textColor = BLUE );
     ~Menu();
-    virtual void draw() override;
     void addMenuItem(menuItem menuitem);
-    void drawMenuItems();
-     
-  
+    void drawMenuItems();  
     void print(String p);
 };
 

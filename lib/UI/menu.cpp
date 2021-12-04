@@ -13,7 +13,7 @@ Menu::Menu  (Elegoo_GFX  *display, String name,
     _w = w;
     _h = h;
     _x=0;
-    _y=0;
+    _y= loc ? _display->height()-_h : 0;
     _name = name;
     _textSize =  textSize;
     _visible = visible;
@@ -26,24 +26,6 @@ Menu::Menu  (Elegoo_GFX  *display, String name,
 
 Menu::~Menu()
 {
-}
-void Menu::draw(){
-    if(_location == BOTTOM)
-    {   
-        _x=0;
-        _y = _display->height()-_h;
-        _display->drawRect(0,_display->height()-_h,_w,_h, _borderColor);
-        _display->fillRect(1,_display->height()-_h-1,_w-2,_h-2, _fillColor);
-    }
-    else
-    {
-        _x=0;
-        _y=0;
-        _display->drawRect(0,0,_w,_h,_borderColor);
-        _display->fillRect(1,1,_w-2,_h-2, _fillColor);
-        
-    }
-    return;
 }
 
 void Menu::print(String p){

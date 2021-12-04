@@ -1,6 +1,4 @@
 #include "Page.h"
-#include <string.h>
- 
 Page::Page(/* args */)
 {
     _itemIndex=0;
@@ -42,6 +40,7 @@ void Page::contains(int16_t x, int16_t y){
         Serial.println("*************** PAGE::CONTIANS::FOR LOOP********************");
         Serial.print("checking Item:"); Serial.println(i);
         items[i]->press(x,y);
+        
     }
     
 }

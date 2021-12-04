@@ -5,17 +5,13 @@
 #define MAX_DATA_SIZE 8
 
 #include <SPI.h>
-#include "mcp2515_can.h"
+#include "mcp_can.h"
 
 const int SPI_CS_PIN = 9;
 const int CAN_INT_PIN = 2;
 
-
-
 class canBusInerface{
   private:
-    mcp2515_can *can;
-
-
+   
 };
 #endif

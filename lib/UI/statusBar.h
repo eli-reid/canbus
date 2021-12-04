@@ -6,6 +6,8 @@ class statusBar: public Item
 { 
     private:
         location_enum _location;
+        bool _hasStatus = false;
+        String _status;
 
      public:
      statusBar();
@@ -18,10 +20,11 @@ class statusBar: public Item
             uint16_t textColor = BLUE );
 
         ~statusBar();
+        void fill();
+        void fill(int16_t color);
         void printStatus();
         void printStatus(String status);
         void setStatus(String status);
-        void draw() override;
         void clear();
         //TODO: add clicked events
 };

@@ -18,23 +18,25 @@ class Item
                 _index;
         boolean currstate, laststate;
         bool _visible, _border;
-        String _status,_name;
+        String _name;
         Elegoo_GFX  *_display;
 public:
+    void(*onPress)(void) = [](void){Serial.println("Lambda works");};
     virtual void draw();
     void setTextColor(int16_t color);
     void setTextSize(int16_t size);
     void setFillColor(int16_t color);
     void setName(String name);
     String getName() const;
-    void fill();
-    void fill(int16_t color);
+    virtual void fill();
+    virtual void fill(int16_t color);
     boolean contains(int16_t x, int16_t y);
     void press(int16_t x, int16_t y);
     boolean isPressed();
     boolean justPressed();
     boolean justReleased();
     void setIndex(int index);
+    
  
 
     //TODO: add event functions

@@ -4,7 +4,6 @@
 using namespace std;
 
 #include <Elegoo_GFX.h>
-#include <StandardCplusplus.h>
 #include <iostream>
 #include <iterator>
 #include <vector>
@@ -17,8 +16,11 @@ class textBox : public Item
 {
 private:
     int test;
-    list<String> lines;
-
+    list<String> _lines;
+    int _maxLines;
+    int _maxChar=38;
+    int16_t _currentCursorY;
+    int16_t _currentCursorX;
 
 public:
     textBox  (Elegoo_GFX  *display, String name, int16_t h, int16_t w, int8_t textSize, bool visible, bool border, int16_t x, int16_t y , 
@@ -26,7 +28,6 @@ public:
     textBox(/* args */);
     ~textBox();
     void update();
-    void draw();
     void print(String text);
 
 };
