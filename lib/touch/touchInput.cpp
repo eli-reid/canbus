@@ -14,9 +14,9 @@ void touchInput::init(Elegoo_GFX* screen){
 
 bool touchInput:: check()
 {
-    digitalWrite(13, HIGH);
+    //digitalWrite(13, HIGH);
     _point = _tScreen.getPoint();
-    digitalWrite(13, LOW);
+   // digitalWrite(13, LOW);
     pinMode(XM, OUTPUT);
     pinMode(YP, OUTPUT);
     if (_point.z > MINPRESSURE && _point.z < MAXPRESSURE) {

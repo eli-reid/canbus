@@ -40,7 +40,8 @@ void Page::contains(int16_t x, int16_t y){
         Serial.println("*************** PAGE::CONTIANS::FOR LOOP********************");
         Serial.print("checking Item:"); Serial.println(i);
         items[i]->press(x,y);
-        
+        if(items[i]->isPressed())// insure only one item is touched
+            break;
     }
     
 }

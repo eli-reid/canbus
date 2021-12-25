@@ -2,8 +2,6 @@
 #define _TEXTBOX_H
 
 using namespace std;
-
-#include <Elegoo_GFX.h>
 #include <iostream>
 #include <iterator>
 #include <vector>
@@ -12,12 +10,13 @@ using namespace std;
 #include <string.h>
 #include "colors_dfs.h"
 #include "item.h"
+#include <stdio.h>
 class textBox : public Item
 {
 private:
     int test;
     list<String> _lines;
-    int _maxLines;
+    uint8_t _maxLines;
     int _maxChar=38;
     int16_t _currentCursorY;
     int16_t _currentCursorX;
@@ -28,6 +27,7 @@ public:
     textBox(/* args */);
     ~textBox();
     void update();
+    void clear();
     void print(String text);
 
 };

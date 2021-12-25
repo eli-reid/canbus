@@ -1,5 +1,5 @@
 #include "item.h"
-#include <stdio.h>
+
 void Item::draw() {
   _display->fillRect(_x,_y,_w,_h, _fillColor);
   _display->drawRect(_x,_y,_w,_h, _borderColor);
@@ -38,20 +38,19 @@ String Item::getName() const{
   return _name;
 }
 
-boolean Item::contains(int16_t x, int16_t y) {
-  if ((x <(_x - _w)) || (x > (_x + _w))) return false;
+bool Item::contains(int16_t x, int16_t y) {
+  if ((x < (_x - _w)) || (x > (_x + _w))) return false;
   if ((y < (_y - _h)) || (y > (_y + _h))) return false;
-  Serial.print(_name); Serial.println(" stop touchng me");
- 
+  Serial.print(_name);
+  Serial.println(" stop touchng me");
   return true;
  }
 
  void Item::press(int16_t x, int16_t y) {
-   laststate = currstate;
-   currstate =  contains(x,y);
-   if(currstate)
-      onPress();
-   
+  laststate = currstate;
+  currstate =  contains(x,y);
+  if(currstate)
+    onPress();
  }
 
  boolean Item::isPressed() { return currstate; }

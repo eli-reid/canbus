@@ -1,27 +1,30 @@
 #ifndef _MENUITEM_H
 #define _MENUITEM_H
-#include <string.h>
 #include <stdint.h>
+#include <stdbool.h>
+#include "colors_dfs.h"
+#include "Arduino.h"
+#include "item.h"
 
-class menuItem
+class menuItem : public Item
 {
 private:
     int _index;
-    int16_t _width;
-    int16_t _height;
-    //String _title;
+    String _title;
+
 public:
-    menuItem(/* args */);
+    int getIndex();
+    menuItem(/* args */){};
+    menuItem(Elegoo_GFX * display, int index, int width, String title);
     void setHeight(int16_t h);
     int16_t getHeight();
-    bool contains(int16_t x,int16_t y);
-    ~menuItem();
+    void setWidth(int16_t w);
+    int16_t getWidth();
+    void setX(int16_t x);
+    void setY(int16_t y);
+    int16_t getX();
+    int16_t getY();
+    void draw();
+    ~menuItem(){};
 };
-
-
-
-
-
-
-
 #endif

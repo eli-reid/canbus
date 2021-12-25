@@ -19,7 +19,7 @@ class touchInput
 {
 private:
     TSPoint _point;
-    TouchScreen _tScreen = TouchScreen(XP, YP, XM, YM, 300);
+    TouchScreen _tScreen = TouchScreen(XP, YP, XM, YM);
     Elegoo_GFX *_screen;
 public:
     touchInput();

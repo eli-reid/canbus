@@ -7,41 +7,31 @@
 #include "menu.h"
 #include "item.h"
 #include "textBox.h"
-
-void f(){
-        Serial.println("func works");
-}
+#include "menuItem.h"
 
 class mainPage: public Page
 {
 public:
         Menu menu;
-        statusBar sb;
-        textBox tb;
-        
-
-        //textbox 
+        statusBar statusbar;
+        textBox textbox;
+        menuItem menuitem1;
         void init(Elegoo_GFX* screen);
-        ~mainPage();
 };
 
 void mainPage::init(Elegoo_GFX *screen)
 {        
         _itemIndex = 0;      
-        sb = statusBar(screen,"StatusBar",30, screen->width(),2,true,true,BOTTOM,GREEN,BLACK);
-        menu =  Menu(screen,"MenuBar",30,screen->width(),1,true,true,TOP);
-        tb = textBox(screen,"Textbox",200,screen->width(),1,true,true,0,32);
-        sb.onPress = f;    
-
-        addItem(&menu);
-        addItem(&sb); 
-        addItem(&tb);
+        textbox = textBox(screen,"Textbox",250,screen->width(),1,true,true,0,32);
+        statusbar = statusBar(screen,"StatusBar",30, screen->width(),1,true,true,BOTTOM,GREEN,BLACK);
         
+        menu =  Menu(screen,"MenuBar",30,screen->width(),1,true,true,TOP);
+        menuitem1 = menuItem(screen,0,70,"Connect CAN");
+        menu.addMenuItem(&menuitem1);
+     
+        addItem(&menu);
+        addItem(&statusbar); 
+        addItem(&textbox);
 }
-
-mainPage::~mainPage()
-{
-}
-
 
 #endif
