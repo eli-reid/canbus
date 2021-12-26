@@ -41,8 +41,6 @@ String Item::getName() const{
 bool Item::contains(int16_t x, int16_t y) {
   if ((x < (_x - _w)) || (x > (_x + _w))) return false;
   if ((y < (_y - _h)) || (y > (_y + _h))) return false;
-  Serial.print(_name);
-  Serial.println(" stop touchng me");
   return true;
  }
 

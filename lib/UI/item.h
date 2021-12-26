@@ -4,7 +4,7 @@
 #include <string.h>
 #include "Elegoo_GFX.h"
 #include "colors_dfs.h"
-enum location_enum {TOP,BOTTOM};
+enum location_enum {TOP, BOTTOM};
 
 class Item
 {
@@ -36,13 +36,5 @@ public:
     boolean justPressed();
     boolean justReleased();
     void setIndex(int index);
-
-    //TODO: add event functions
 };
-
-
-
-
-
-
-#endif 
+#endif

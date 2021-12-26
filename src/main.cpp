@@ -1,7 +1,6 @@
 #include "main.h"
 
 void setup(){
-
   Serial.begin(9600);
   screen_init();
   touchinput.init(&screen);
@@ -17,6 +16,6 @@ void loop(){
 
   if (can.isConnected())
     can.msgCheck();  
-  
+
   delay(100);
 }

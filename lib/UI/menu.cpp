@@ -1,31 +1,18 @@
 #include "menu.h"
-Menu::Menu(){}
-Menu::Menu(Elegoo_GFX  *display, String name,
-        int16_t h, int16_t w, 
-        int8_t textSize, 
-        bool visible, 
-        bool border, 
-        location_enum loc = TOP, 
-        uint16_t borderColor, 
-        uint16_t fillColor , 
-        uint16_t textColor )
-{
+Menu::Menu(Elegoo_GFX *display, String name, int16_t h, int16_t w, int8_t textSize, bool visible,
+    bool border, int location, uint16_t borderColor, uint16_t fillColor, uint16_t textColor ){
     _w = w;
     _h = h;
     _x = 0;
-    _y = loc ? _display->height()-_h : 0;
+    _y = location ? _display->height()-_h : 0;
     _name = name;
     _textSize =  textSize;
     _visible = visible;
-    _location =  loc; 
+    _location =  location; 
     _display = display;
     _fillColor = fillColor;
     _borderColor = borderColor;
     _textColor = textColor;     
-}
-
-Menu::~Menu()
-{
 }
 
 void Menu::draw(){

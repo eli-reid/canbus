@@ -11,20 +11,20 @@ class menuItem : public Item
 private:
     int _index;
     String _title;
-
 public:
-    int getIndex();
-    menuItem(/* args */){};
+    menuItem(){};
     menuItem(Elegoo_GFX * display, int index, int width, String title);
+    ~menuItem(){};
     void setHeight(int16_t h);
-    int16_t getHeight();
     void setWidth(int16_t w);
-    int16_t getWidth();
     void setX(int16_t x);
     void setY(int16_t y);
+    int getIndex();
+    int16_t getWidth();
+    int16_t getHeight();
     int16_t getX();
     int16_t getY();
     void draw();
-    ~menuItem(){};
+  
 };
 #endif

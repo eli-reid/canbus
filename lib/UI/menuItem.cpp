@@ -1,5 +1,4 @@
 #include "menuItem.h"
-
 menuItem::menuItem(Elegoo_GFX* display, int index, int width, String title){
     _display=display;
     _index=index;
@@ -9,8 +8,8 @@ menuItem::menuItem(Elegoo_GFX* display, int index, int width, String title){
 }
 
 void menuItem::draw(){
-    _display->fillRect(_x,_y,_w,_h, BLUE);
     int adjustment = _h/2 * 6 / 10 + 1;
+    _display->fillRect(_x,_y,_w,_h, BLUE);
     _display->setCursor(_x+3,_y + adjustment);
     _display->print(_title);
 }
@@ -24,4 +23,3 @@ void menuItem::setX(int16_t x){ _x = x;}
 void menuItem::setY(int16_t y){ _y = y;}
 void menuItem::setWidth(int16_t w){ _w = w; }
 void menuItem::setHeight(int16_t h){ _h = h; }
-
