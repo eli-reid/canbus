@@ -20,11 +20,11 @@ public:
     Menu(Elegoo_GFX*, String, int16_t, int16_t, int8_t, bool, bool, int, 
         uint16_t borderColor=BLUE, uint16_t fillColor=WHITE, uint16_t textColor=BLUE);
     ~Menu(){};
-    void draw();
+    void draw() override;
     void addMenuItem(menuItem *);
     void drawMenuItems();  
     void print(String p);
-    void press(int16_t x, int16_t y);
+    void press(int16_t x, int16_t y) override;
 };
 
 

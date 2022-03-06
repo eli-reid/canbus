@@ -1,40 +1,138 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="2232821553">
+<analyzerinfo checksum="1078098282">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;menuItem::_index&apos; is not initialized in the constructor." verbose="Member variable &apos;menuItem::_index&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menuItem.h" line="15" column="5"/>
+            <symbol>menuItem::_index</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_visible&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_visible&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.h" line="17" column="9"/>
+            <symbol>button::_visible</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_label&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_label&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.h" line="17" column="9"/>
+            <symbol>button::_label</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;button::_display&apos; is not initialized in the constructor." verbose="Member variable &apos;button::_display&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.h" line="17" column="9"/>
+            <symbol>button::_display</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::test&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::test&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::test</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_maxLines&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_maxLines&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_maxLines</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_currentCursorY&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_currentCursorY&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_currentCursorY</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_currentCursorX&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_currentCursorX&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_currentCursorX</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Menu::_location&apos; is not initialized in the constructor." verbose="Member variable &apos;Menu::_location&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menu.h" line="19" column="5"/>
+            <symbol>Menu::_location</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Menu::_menuitems&apos; is not initialized in the constructor." verbose="Member variable &apos;Menu::_menuitems&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menu.h" line="19" column="5"/>
+            <symbol>Menu::_menuitems</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Menu::_menuitems&apos; is not initialized in the constructor." verbose="Member variable &apos;Menu::_menuitems&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menu.cpp" line="2" column="7"/>
+            <symbol>Menu::_menuitems</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;menuItem&apos; defines member variable with name &apos;_index&apos; also defined in its parent class &apos;Item&apos;." verbose="The class &apos;menuItem&apos; defines member variable with name &apos;_index&apos; also defined in its parent class &apos;Item&apos;." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menuItem.h" line="12" column="9" info="Derived variable &apos;menuItem::_index&apos;"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="20" column="17" info="Parent variable &apos;Item::_index&apos;"/>
+            <symbol>menuItem</symbol>
+            <symbol>_index</symbol>
+            <symbol>Item</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;button&apos; defines member variable with name &apos;_visible&apos; also defined in its parent class &apos;Item&apos;." verbose="The class &apos;button&apos; defines member variable with name &apos;_visible&apos; also defined in its parent class &apos;Item&apos;." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.h" line="10" column="14" info="Derived variable &apos;button::_visible&apos;"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="22" column="14" info="Parent variable &apos;Item::_visible&apos;"/>
+            <symbol>button</symbol>
+            <symbol>_visible</symbol>
+            <symbol>Item</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;button&apos; defines member variable with name &apos;_display&apos; also defined in its parent class &apos;Item&apos;." verbose="The class &apos;button&apos; defines member variable with name &apos;_display&apos; also defined in its parent class &apos;Item&apos;." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\button.h" line="12" column="22" info="Derived variable &apos;button::_display&apos;"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="24" column="22" info="Parent variable &apos;Item::_display&apos;"/>
+            <symbol>button</symbol>
+            <symbol>_display</symbol>
+            <symbol>Item</symbol>
+        </error>
   <FileInfo check="Class">
-<class name="Menu" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.h" line="6" col="1" hash="11100617631286812748"/>
+<class name="Menu" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.h" line="13" col="1" hash="9200443145449197069"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.h:24:10" my-argnr="1" my-argname="m" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp" line="36" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.h:24:10" my-argnr="1" my-argname="m" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menu.cpp" line="36" col="17" value="0"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="draw" lineNumber="31"/>
-    <functiondecl functionName="print" lineNumber="51"/>
+    <functiondecl functionName="draw" lineNumber="18"/>
+    <functiondecl functionName="print" lineNumber="23"/>
+    <functiondecl functionName="addMenuItem" lineNumber="35"/>
+    <functiondecl functionName="drawMenuItems" lineNumber="50"/>
+    <functiondecl functionName="press" lineNumber="55"/>
     <functioncall functionName="BOTTOM"/>
     <functioncall functionName="Menu"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="String"/>
     <functioncall functionName="TOP"/>
-    <functioncall functionName="_borderColor"/>
-    <functioncall functionName="_fillColor"/>
     <functioncall functionName="_h"/>
     <functioncall functionName="_textColor"/>
     <functioncall functionName="_textSize"/>
-    <functioncall functionName="_w"/>
+    <functioncall functionName="bool"/>
     <functioncall functionName="borderColor"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="button"/>
     <functioncall functionName="const"/>
     <functioncall functionName="display"/>
-    <functioncall functionName="drawRect"/>
+    <functioncall functionName="draw"/>
+    <functioncall functionName="drawMenuItems"/>
+    <functioncall functionName="false"/>
     <functioncall functionName="fillColor"/>
-    <functioncall functionName="fillRect"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getWidth"/>
+    <functioncall functionName="getX"/>
     <functioncall functionName="h"/>
     <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
     <functioncall functionName="if"/>
-    <functioncall functionName="loc"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int16_t"/>
+    <functioncall functionName="int8_t"/>
+    <functioncall functionName="isPressed"/>
+    <functioncall functionName="location"/>
+    <functioncall functionName="m"/>
+    <functioncall functionName="menuItem"/>
+    <functioncall functionName="name"/>
     <functioncall functionName="override"/>
     <functioncall functionName="p"/>
+    <functioncall functionName="press"/>
     <functioncall functionName="print"/>
-    <functioncall functionName="return"/>
     <functioncall functionName="setCursor"/>
+    <functioncall functionName="setHeight"/>
     <functioncall functionName="setTextColor"/>
     <functioncall functionName="setTextSize"/>
+    <functioncall functionName="setX"/>
+    <functioncall functionName="setY"/>
+    <functioncall functionName="textBox"/>
     <functioncall functionName="textColor"/>
     <functioncall functionName="textSize"/>
+    <functioncall functionName="true"/>
     <functioncall functionName="visible"/>
+    <functioncall functionName="void"/>
     <functioncall functionName="w"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
   </FileInfo>
 </analyzerinfo>

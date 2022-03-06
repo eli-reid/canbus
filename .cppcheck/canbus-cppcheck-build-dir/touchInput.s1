@@ -1,5 +1,5 @@
 touchInput
 touchInput
 init
-check call:[digitalWrite,getPoint,height,map,pinMode,width]
+check call:[getPoint,height,map,pinMode,width]
 getPoint

@@ -19,12 +19,12 @@ public:
     void setWidth(int16_t w);
     void setX(int16_t x);
     void setY(int16_t y);
-    int getIndex();
-    int16_t getWidth();
-    int16_t getHeight();
-    int16_t getX();
-    int16_t getY();
-    void draw();
+    int getIndex() const;
+    int16_t getWidth() const;
+    int16_t getHeight() const;
+    int16_t getX() const;
+    int16_t getY() const;
+    void draw() override;
   
 };
 #endif

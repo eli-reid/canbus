@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="3009978505">
+<analyzerinfo checksum="171862563">
   <FileInfo check="Class">
-<class name="touchInput" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.h" line="18" col="1" hash="3045379873691644910"/>
+<class name="touchInput" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.h" line="18" col="1" hash="16550365460390320478"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
     <functiondecl functionName="init" lineNumber="11"/>
     <functiondecl functionName="check" lineNumber="15"/>
-    <functiondecl functionName="getPoint" lineNumber="32"/>
+    <functiondecl functionName="getPoint" lineNumber="31"/>
     <functioncall functionName="A2"/>
     <functioncall functionName="A3"/>
-    <functioncall functionName="HIGH"/>
-    <functioncall functionName="LOW"/>
     <functioncall functionName="NULL"/>
     <functioncall functionName="OUTPUT"/>
     <functioncall functionName="TouchScreen"/>
-    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="const"/>
     <functioncall functionName="getPoint"/>
     <functioncall functionName="height"/>
     <functioncall functionName="if"/>

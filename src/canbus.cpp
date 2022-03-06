@@ -6,11 +6,11 @@ void canBusInterface::connect(){
      }
     _connected = true;
     onConnect();
-
 }
 
 void canBusInterface::disconnect(){
     _connected = false;
+    _can.end();
     onDisconnect();
 }
 
@@ -20,20 +20,17 @@ void canBusInterface::msgCheck(){
         _onMsgRecv();
         onMsgRecv();
     }
-   
 }
 
 void canBusInterface::msgRead(){
       _can.readMsgBuf(&_buffer.len, _buffer.data);
       _onMsgRead();
-
-}
-void canBusInterface::_onMsgRead(){
-
 }
 
-void canBusInterface::_onMsgRecv(){
+const void canBusInterface::_onMsgRead(){
+    _can.checkError();
+}
+
+const void canBusInterface::_onMsgRecv(){
     msgRead();
-
-
 }

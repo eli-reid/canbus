@@ -1,1 +1,1 @@
-screen_init global:[identifier] call:[begin,fillScreen,reset,setRotation] noreturn:[fillScreen]
+screen_init global:[identifier,screen] call:[begin,fillScreen,reset,setRotation] noreturn:[fillScreen]

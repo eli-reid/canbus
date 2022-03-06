@@ -1,23 +1,62 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="2210289301">
+<analyzerinfo checksum="4285074488">
+  <FileInfo check="Class">
+<class name="mainPage" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/include/mainPage.h" line="12" col="1" hash="8461435848970976571"/>
+<class name="BUFFER" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/include/canbus.h" line="12" col="9" hash="4058537505368851782"/>
+  </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="setup" lineNumber="5"/>
-    <functiondecl functionName="loop" lineNumber="18"/>
+    <functiondecl functionName="setup" lineNumber="3"/>
+    <functiondecl functionName="loop" lineNumber="15"/>
+    <functioncall functionName="BLACK"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="GREEN"/>
+    <functioncall functionName="MCP_CAN"/>
+    <functioncall functionName="Menu"/>
+    <functioncall functionName="Menu2"/>
+    <functioncall functionName="SPI_CS_PIN"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="addItem"/>
+    <functioncall functionName="addMenuItem"/>
     <functioncall functionName="begin"/>
+    <functioncall functionName="canBusInterface"/>
+    <functioncall functionName="canConnectMenuItem"/>
+    <functioncall functionName="changeMenu"/>
     <functioncall functionName="check"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="connect"/>
     <functioncall functionName="contains"/>
     <functioncall functionName="delay"/>
+    <functioncall functionName="disconnect"/>
     <functioncall functionName="draw"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="getIndex"/>
     <functioncall functionName="getPoint"/>
     <functioncall functionName="if"/>
     <functioncall functionName="init"/>
+    <functioncall functionName="isConnected"/>
+    <functioncall functionName="item1"/>
+    <functioncall functionName="item2"/>
+    <functioncall functionName="item2press"/>
+    <functioncall functionName="m"/>
+    <functioncall functionName="mainMenu"/>
     <functioncall functionName="mainPage"/>
-    <functioncall functionName="println"/>
+    <functioncall functionName="menuItem"/>
+    <functioncall functionName="msgCheck"/>
+    <functioncall functionName="onPressConnect"/>
+    <functioncall functionName="onPressDisconnect"/>
+    <functioncall functionName="printStatus"/>
+    <functioncall functionName="replaceItem"/>
     <functioncall functionName="screen"/>
     <functioncall functionName="screen_init"/>
+    <functioncall functionName="statusBar"/>
+    <functioncall functionName="statusbar"/>
+    <functioncall functionName="textBox"/>
+    <functioncall functionName="textbox"/>
     <functioncall functionName="touchInput"/>
-    <functioncall functionName="tx"/>
-    <functioncall functionName="ty"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
     <functioncall functionName="x"/>
     <functioncall functionName="y"/>
   </FileInfo>

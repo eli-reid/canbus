@@ -1,9 +1,76 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="364309523">
+<analyzerinfo checksum="1757017017">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::test&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::test&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textbox.cpp" line="3" column="10"/>
+            <symbol>textBox::test</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::test&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::test&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::test</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_maxLines&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_maxLines&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_maxLines</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_currentCursorY&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_currentCursorY&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_currentCursorY</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;textBox::_currentCursorX&apos; is not initialized in the constructor." verbose="Member variable &apos;textBox::_currentCursorX&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\textBox.h" line="23" column="5"/>
+            <symbol>textBox::_currentCursorX</symbol>
+        </error>
   <FileInfo check="Class">
-<class name="textBox" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textBox.h" line="8" col="1" hash="3344975495752189026"/>
+<class name="textBox" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textBox.h" line="10" col="1" hash="12063649355086212756"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="print" lineNumber="21"/>
+    <functiondecl functionName="clear" lineNumber="56"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="String"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="_currentCursorX"/>
+    <functioncall functionName="_currentCursorY"/>
+    <functioncall functionName="_maxChar"/>
+    <functioncall functionName="_textColor"/>
+    <functioncall functionName="_textSize"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="borderColor"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="draw"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fillColor"/>
+    <functioncall functionName="flush"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getCursorY"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="redraw"/>
+    <functioncall functionName="setCursor"/>
+    <functioncall functionName="setTextColor"/>
+    <functioncall functionName="setTextSize"/>
+    <functioncall functionName="setTextWrap"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="substring"/>
     <functioncall functionName="textBox"/>
+    <functioncall functionName="textColor"/>
+    <functioncall functionName="textSize"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="visible"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
   </FileInfo>
 </analyzerinfo>

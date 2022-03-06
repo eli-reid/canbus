@@ -1,2 +1,13 @@
-setup global:[mp,ti] call:[begin,draw,init,println,screen_init] noreturn:[println]
-loop global:[mp,ti,tx,ty] call:[check,contains,delay,getPoint] noreturn:[contains,delay]
+init call:[Menu,addItem,addMenuItem,menuItem,statusBar,textBox,width] noreturn:[addItem]
+changeMenu call:[draw,fill,getIndex,replaceItem] noreturn:[draw]
+getBuffer
+isConnected
+clearTextBox global:[mainpage] call:[clear,printStatus] noreturn:[printStatus]
+onPressConnect global:[can,mainpage] call:[changeMenu,connect,printStatus] noreturn:[changeMenu]
+onPressDisconnect global:[can,mainpage] call:[changeMenu,disconnect,printStatus] noreturn:[changeMenu]
+onCanConnect
+onCanFail
+onCanMsgRead
+item2press global:[mainpage] call:[changeMenu,printStatus] noreturn:[changeMenu]
+setup global:[mainpage,screen,touchinput] call:[begin,draw,init,printStatus,screen_init]
+loop global:[can,mainpage,touchinput] call:[check,contains,delay,getPoint,isConnected,msgCheck] noreturn:[contains,delay,msgCheck]

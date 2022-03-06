@@ -1,35 +1,42 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="1601669943">
+<analyzerinfo checksum="2108594989">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;statusBar::_location&apos; is not initialized in the constructor." verbose="Member variable &apos;statusBar::_location&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\statusBar.h" line="13" column="9"/>
+            <symbol>statusBar::_location</symbol>
+        </error>
   <FileInfo check="Class">
-<class name="statusBar" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.h" line="5" col="1" hash="11539158083266761473"/>
+<class name="statusBar" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.h" line="5" col="1" hash="3098365568796646677"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="printStatus" lineNumber="33"/>
-    <functiondecl functionName="printStatus" lineNumber="46"/>
-    <functiondecl functionName="setStatus" lineNumber="53"/>
-    <functiondecl functionName="clear" lineNumber="60"/>
-    <functiondecl functionName="draw" lineNumber="70"/>
+    <functiondecl functionName="printStatus" lineNumber="21"/>
+    <functiondecl functionName="printStatus" lineNumber="31"/>
+    <functiondecl functionName="setStatus" lineNumber="36"/>
+    <functiondecl functionName="clear" lineNumber="45"/>
+    <functiondecl functionName="fill" lineNumber="50"/>
+    <functiondecl functionName="fill" lineNumber="56"/>
     <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="NULL"/>
     <functioncall functionName="TOP"/>
-    <functioncall functionName="_borderColor"/>
-    <functioncall functionName="_fillColor"/>
     <functioncall functionName="_h"/>
+    <functioncall functionName="_hasStatus"/>
     <functioncall functionName="_status"/>
     <functioncall functionName="_textColor"/>
     <functioncall functionName="_textSize"/>
-    <functioncall functionName="_w"/>
-    <functioncall functionName="_x"/>
+    <functioncall functionName="adjustment"/>
     <functioncall functionName="borderColor"/>
     <functioncall functionName="clear"/>
+    <functioncall functionName="color"/>
     <functioncall functionName="const"/>
     <functioncall functionName="display"/>
-    <functioncall functionName="drawRect"/>
+    <functioncall functionName="draw"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
     <functioncall functionName="fillColor"/>
-    <functioncall functionName="fillRect"/>
     <functioncall functionName="h"/>
     <functioncall functionName="height"/>
     <functioncall functionName="if"/>
-    <functioncall functionName="loc"/>
+    <functioncall functionName="location"/>
+    <functioncall functionName="name"/>
     <functioncall functionName="override"/>
     <functioncall functionName="print"/>
     <functioncall functionName="printStatus"/>
@@ -43,7 +50,9 @@
     <functioncall functionName="statusBar"/>
     <functioncall functionName="textColor"/>
     <functioncall functionName="textSize"/>
+    <functioncall functionName="true"/>
     <functioncall functionName="visible"/>
+    <functioncall functionName="void"/>
     <functioncall functionName="w"/>
   </FileInfo>
 </analyzerinfo>

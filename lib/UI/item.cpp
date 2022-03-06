@@ -1,6 +1,8 @@
 #include "item.h"
 
 void Item::draw() {
+  _display->setTextColor(_textColor);
+  _display->setTextSize(_textSize);
   _display->fillRect(_x,_y,_w,_h, _fillColor);
   _display->drawRect(_x,_y,_w,_h, _borderColor);
 }
@@ -51,8 +53,6 @@ bool Item::contains(int16_t x, int16_t y) {
     onPress();
  }
 
- boolean Item::isPressed() { return currstate; }
-
- boolean Item::justPressed() { return (currstate && !laststate); }
-
- boolean Item::justReleased() { return (!currstate && laststate); }
+bool Item::isPressed()  const{ return currstate; }
+bool Item::justPressed()  const{ return (currstate && !laststate); }
+bool Item::justReleased()  const{ return (!currstate && laststate); }

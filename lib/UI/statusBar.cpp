@@ -3,7 +3,8 @@
 statusBar::statusBar(Elegoo_GFX  *display, String name, int16_t h, int16_t w, 
     int8_t textSize, bool visible, bool border, int location, 
     uint16_t borderColor, uint16_t fillColor, uint16_t textColor){
-
+    
+    _display = display;
     _w = w;
     _h = h;
     _x=0;
@@ -12,7 +13,6 @@ statusBar::statusBar(Elegoo_GFX  *display, String name, int16_t h, int16_t w,
     _textSize =  textSize;
     _visible = visible;
     _location =  location; 
-    _display = display;
     _fillColor = fillColor;
     _borderColor = borderColor;
     _textColor = textColor;

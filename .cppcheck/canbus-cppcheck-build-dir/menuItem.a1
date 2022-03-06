@@ -1,9 +1,59 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="1717369832">
+<analyzerinfo checksum="1138611619">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;menuItem::_index&apos; is not initialized in the constructor." verbose="Member variable &apos;menuItem::_index&apos; is not initialized in the constructor." cwe="398" inconclusive="true" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menuItem.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menuItem.h" line="15" column="5"/>
+            <symbol>menuItem::_index</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;menuItem&apos; defines member variable with name &apos;_index&apos; also defined in its parent class &apos;Item&apos;." verbose="The class &apos;menuItem&apos; defines member variable with name &apos;_index&apos; also defined in its parent class &apos;Item&apos;." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menuItem.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\menuItem.h" line="12" column="9" info="Derived variable &apos;menuItem::_index&apos;"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\item.h" line="20" column="17" info="Parent variable &apos;Item::_index&apos;"/>
+            <symbol>menuItem</symbol>
+            <symbol>_index</symbol>
+            <symbol>Item</symbol>
+        </error>
   <FileInfo check="Class">
-<class name="menuItem" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menuItem.h" line="3" col="1" hash="16608242241014265468"/>
+<class name="menuItem" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/menuItem.h" line="9" col="1" hash="5641756327064162542"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="draw" lineNumber="9"/>
+    <functiondecl functionName="getIndex" lineNumber="18"/>
+    <functiondecl functionName="getHeight" lineNumber="19"/>
+    <functiondecl functionName="getWidth" lineNumber="20"/>
+    <functiondecl functionName="getX" lineNumber="21"/>
+    <functiondecl functionName="getY" lineNumber="22"/>
+    <functiondecl functionName="setX" lineNumber="23"/>
+    <functiondecl functionName="setY" lineNumber="24"/>
+    <functiondecl functionName="setWidth" lineNumber="25"/>
+    <functiondecl functionName="setHeight" lineNumber="26"/>
+    <functioncall functionName="BOTTOM"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TOP"/>
+    <functioncall functionName="_h"/>
+    <functioncall functionName="_textColor"/>
+    <functioncall functionName="_textSize"/>
+    <functioncall functionName="_title"/>
+    <functioncall functionName="_w"/>
+    <functioncall functionName="_x"/>
+    <functioncall functionName="_y"/>
+    <functioncall functionName="adjustment"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fillRect"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="index"/>
     <functioncall functionName="menuItem"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="setCursor"/>
+    <functioncall functionName="setTextColor"/>
+    <functioncall functionName="setTextSize"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
   </FileInfo>
 </analyzerinfo>

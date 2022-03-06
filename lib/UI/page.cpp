@@ -20,3 +20,7 @@ void Page::contains(int16_t x, int16_t y){
     }
     
 }
+void Page::replaceItem(int itemIndex, Item *item){
+    items[itemIndex] = item;
+    item->setIndex(itemIndex);
+}

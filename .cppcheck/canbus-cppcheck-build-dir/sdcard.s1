@@ -1,0 +1,4 @@
+flashDrive
+cardPresent call:[begin] noreturn:[begin]
+writeFile call:[cardPresent,close,end,open,println] noreturn:[println]
+readFile call:[cardPresent,open,readString] noreturn:[readString]

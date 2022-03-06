@@ -2,47 +2,48 @@
 
 flashDrive::flashDrive(int chipselect){
     chipSelect = chipselect;
-
 }
 
 bool flashDrive::cardPresent(){
-    return fdrive.begin(chipSelect);
+    return _currstate;
 }
 
-int flashDrive::writeFile(String file, String data){
-    int err = NONE;
-    File dataFile;
-    if(cardPresent()){
-         dataFile = fdrive.open(file, FILE_WRITE);
-        if(dataFile){
-            dataFile.println(data);
-        }
-        else{
-            err = WR_ERR_FLG;  
-        }
-    }
-    else{
-        err = OP_ERR_FLG;  
-    } 
-    dataFile.close();
-    fdrive.end();
-    return err;
+ bool flashDrive::checkForCard(){
+    _laststate = _currstate;        
+    if(_card.init(SPI_FULL_SPEED, SD_CHIP_SELECT_PIN) && _vol.init(&_card))
+        _currstate = true;
+    else
+        _currstate = false;
+    _eventChange();
+    return _currstate;    
 }
 
-int flashDrive::readFile(String file, String *readBuff){
-    int err = NONE;
-    if(cardPresent()){
-        File dataFile = fdrive.open(file, FILE_READ);
-        if(dataFile){
-            *readBuff = dataFile.readString();
-        }
-        else{
-            err = WR_ERR_FLG;  
-        }
-    }
-    else{
-        err = OP_ERR_FLG;  
-    } 
+void flashDrive::_eventChange(){
+    if(_justInserted())
+        onInserted();
+    if(_justRemoved())
+        onRemoved();    
+}
 
-    return err;
+
+int flashDrive::readFile(char* file, String *readBuffer){
+    if(cardPresent()){
+        SdFile f;
+        uint16_t BUF;
+        f.read(&BUF,1);}
+}
+bool flashDrive::writeFile(char *fileName, char *data){
+    SdFile file;
+    if(cardPresent()){
+         if(_root.isOpen()) 
+                _root.close();
+            if(_root.openRoot(&_vol)) 
+                if(file.open(&_root, fileName, O_CREAT | O_WRITE ))
+                {
+                    file.seekEnd();
+                    file.println(data);
+                    file.close();
+                }  
+    }
+    return true;
 }

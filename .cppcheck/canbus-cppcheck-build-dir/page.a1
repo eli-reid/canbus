@@ -1,34 +1,39 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="3442294022">
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Page::items&apos; is not initialized in the constructor." verbose="Member variable &apos;Page::items&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.cpp">
-            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="4" column="7"/>
-            <symbol>Page::items</symbol>
+<analyzerinfo checksum="2807833415">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;items[20]&apos; accessed at index 2147483647, which is out of bounds." verbose="Array &apos;items[20]&apos; accessed at index 2147483647, which is out of bounds." cwe="788" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="24" column="10" info="Array index out of bounds"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="23" column="28" info="Safe checks: Assuming argument has value 2147483647"/>
+        </error>
+        <error id="negativeIndex" severity="error" msg="Array &apos;items[20]&apos; accessed at index -2147483648, which is out of bounds." verbose="Array &apos;items[20]&apos; accessed at index -2147483648, which is out of bounds." cwe="786" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="24" column="10" info="Negative array index"/>
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\UI\page.cpp" line="23" column="28" info="Safe checks: Assuming argument has value -2147483648"/>
         </error>
   <FileInfo check="Class">
-<class name="Page" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.h" line="5" col="1" hash="8027577097227344740"/>
+<class name="Page" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.h" line="6" col="1" hash="13729316244597367728"/>
   </FileInfo>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="addItem" lineNumber="13"/>
-    <functiondecl functionName="removeItem" lineNumber="23"/>
-    <functiondecl functionName="draw" lineNumber="27"/>
-    <functiondecl functionName="contains" lineNumber="36"/>
+    <functiondecl functionName="addItem" lineNumber="3"/>
+    <functiondecl functionName="draw" lineNumber="9"/>
+    <functiondecl functionName="contains" lineNumber="15"/>
+    <functiondecl functionName="replaceItem" lineNumber="23"/>
     <functioncall functionName="BOTTOM"/>
-    <functioncall functionName="Page"/>
+    <functioncall functionName="NULL"/>
     <functioncall functionName="TOP"/>
     <functioncall functionName="_itemIndex"/>
+    <functioncall functionName="break"/>
     <functioncall functionName="const"/>
-    <functioncall functionName="contains"/>
     <functioncall functionName="draw"/>
     <functioncall functionName="false"/>
     <functioncall functionName="for"/>
     <functioncall functionName="i"/>
     <functioncall functionName="if"/>
+    <functioncall functionName="isPressed"/>
     <functioncall functionName="item"/>
+    <functioncall functionName="itemIndex"/>
     <functioncall functionName="press"/>
-    <functioncall functionName="print"/>
-    <functioncall functionName="println"/>
     <functioncall functionName="setIndex"/>
     <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
     <functioncall functionName="x"/>
     <functioncall functionName="y"/>
   </FileInfo>

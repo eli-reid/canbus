@@ -3,6 +3,14 @@
 		{
 			"name": "canbus",
 			"path": "."
+		},
+		{
+			"name": "Esp32_project",
+			"path": "..\\Esp32_project"
+		},
+		{
+			"name": "level sensor",
+			"path": "..\\level sensor"
 		}
 	],
 	"settings": {
@@ -19,7 +27,12 @@
 			"algorithm": "cpp",
 			"set": "cpp",
 			"string": "cpp",
-			"valarray": "cpp"
+			"valarray": "cpp",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"chrono": "cpp",
+			"xutility": "cpp",
+			"file.h": "c"
 		}
 	}
 }

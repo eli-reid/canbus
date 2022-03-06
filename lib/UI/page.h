@@ -11,6 +11,7 @@ class Page
     public:
         void draw();
         void addItem(Item *item);
+        void replaceItem(int itemIndex, Item *item);
         void contains(int16_t x, int16_t y);
 };
 #endif

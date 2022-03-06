@@ -1,7 +1,7 @@
-[14.11.2021]
-1636933992771
-cppcheck-error:0
-cppcheck-warning:24
-cppcheck-style:11
+[31.12.2021]
+1640968937675
+cppcheck-error:1
+cppcheck-warning:16
+cppcheck-style:0
 cppcheck-performance:0
 cppcheck-portability:0

@@ -1,0 +1,8 @@
+getBuffer
+isConnected
+connect call:[begin,onConnect,onFail] noreturn:[onConnect,onFail]
+disconnect call:[end,onDisconnect] noreturn:[onDisconnect]
+msgCheck call:[_onMsgRecv,checkReceive,onMsgRecv] noreturn:[onMsgRecv]
+msgRead call:[_onMsgRead,readMsgBuf] noreturn:[_onMsgRead]
+_onMsgRead call:[checkError] noreturn:[checkError]
+_onMsgRecv call:[msgRead] noreturn:[msgRead]

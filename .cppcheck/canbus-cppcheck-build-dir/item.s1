@@ -1,16 +1,15 @@
-Item
-Item
-draw
+getIndex
+draw call:[drawRect,fillRect,setTextColor,setTextSize] noreturn:[drawRect]
 setTextColor
 setTextSize
 setFillColor
-fill
-fill
+fill call:[draw] noreturn:[draw]
+fill call:[drawRect,fillRect] noreturn:[drawRect]
 setIndex
-contains call:[print,println]
-press
+setName
+getName
+contains
+press call:[contains,onPress] noreturn:[onPress]
 isPressed
 justPressed call:[return] noreturn:[return]
 justReleased call:[return] noreturn:[return]
-setName
-getName

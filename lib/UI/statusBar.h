@@ -1,7 +1,7 @@
 #ifndef  _STATUSBAR_H
 #define  _STATUSBAR_H
 #include "item.h"
-
+using namespace std;
 class statusBar: public Item
 { 
     private:
@@ -15,8 +15,8 @@ class statusBar: public Item
             int8_t textSize,bool visible, bool border, int location=BOTTOM, 
             uint16_t borderColor=BLUE, uint16_t fillColor=WHITE, uint16_t textColor=BLUE);
         ~statusBar(){};
-        void fill();
-        void fill(int16_t color);
+        void fill() override;
+        void fill(int16_t color) override;
         void printStatus();
         void printStatus(String status);
         void setStatus(String status);

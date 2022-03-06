@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1761217058">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;flashDrive::FILE_ERR&apos; is not initialized in the constructor." verbose="Member variable &apos;flashDrive::FILE_ERR&apos; is not initialized in the constructor." cwe="398" file0="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/storage/sdcard.cpp">
+            <location file="C:\Users\EliR\OneDrive\Documents\PlatformIO\Projects\canbus\lib\storage\sdcard.cpp" line="3" column="13"/>
+            <symbol>flashDrive::FILE_ERR</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="flashDrive" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/storage/sdcard.h" line="15" col="1" hash="1980817289100945590"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="cardPresent" lineNumber="8"/>
+    <functiondecl functionName="writeFile" lineNumber="12"/>
+    <functiondecl functionName="readFile" lineNumber="32"/>
+    <functioncall functionName="FILE_READ"/>
+    <functioncall functionName="FILE_WRITE"/>
+    <functioncall functionName="NONE"/>
+    <functioncall functionName="OP_ERR_FLG"/>
+    <functioncall functionName="RD_ERR_FLG"/>
+    <functioncall functionName="WR_ERR_FLG"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cardPresent"/>
+    <functioncall functionName="chipSelect"/>
+    <functioncall functionName="chipselect"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dataFile"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="flashDrive"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="readString"/>
+  </FileInfo>
+</analyzerinfo>

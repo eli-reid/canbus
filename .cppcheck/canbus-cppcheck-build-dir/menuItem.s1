@@ -1,2 +1,14 @@
+getIndex
 menuItem
 menuItem
+menuItem
+draw call:[fillRect,print,setCursor,setTextColor,setTextSize] noreturn:[print]
+getIndex
+getHeight
+getWidth
+getX
+getY
+setX
+setY
+setWidth
+setHeight

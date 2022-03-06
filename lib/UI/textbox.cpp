@@ -1,7 +1,8 @@
 #include "textBox.h"
-//using namespace std;
-textBox::textBox (Elegoo_GFX  *display, String name, int16_t h, int16_t w, int8_t textSize, bool visible, bool border, int16_t x, int16_t y , 
-        uint16_t borderColor,   uint16_t fillColor, uint16_t textColor){
+using namespace std;
+textBox::textBox(Elegoo_GFX  *display, String name, int16_t h, int16_t w, int8_t textSize, bool visible, bool border, 
+int16_t x, int16_t y, uint16_t borderColor, uint16_t fillColor, uint16_t textColor){
+     _display = display;
     _w = w;
     _h = h;
     _x=x;
@@ -9,7 +10,6 @@ textBox::textBox (Elegoo_GFX  *display, String name, int16_t h, int16_t w, int8_
     _name = name;
     _textSize =  textSize;
     _visible = visible;
-    _display = display;
     _fillColor = fillColor;
     _borderColor = borderColor;
     _textColor = textColor;
@@ -44,7 +44,7 @@ void textBox::print(String text){
         _currentCursorY = _y+3;
         _display->setCursor(_currentCursorX,_currentCursorY);
         draw();
-        for(list<String>::iterator _itr = _lines.begin(); _itr!=_lines.end(); _itr++) {
+        for(list<String>::iterator _itr = _lines.begin(); _itr!=_lines.end(); ++_itr) {
             _display->flush();   
             _display->setCursor(_currentCursorX,_currentCursorY);
             _display->println(*_itr);

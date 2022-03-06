@@ -1,5 +1,5 @@
+getIndex
+button
+button
 button call:[init] noreturn:[init]
-button
-button
-drawButton
 init

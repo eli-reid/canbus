@@ -1,6 +1,7 @@
 #include "menu.h"
 Menu::Menu(Elegoo_GFX *display, String name, int16_t h, int16_t w, int8_t textSize, bool visible,
-    bool border, int location, uint16_t borderColor, uint16_t fillColor, uint16_t textColor ){
+    bool border, int location, uint16_t borderColor, uint16_t fillColor, uint16_t textColor){
+     _display = display;
     _w = w;
     _h = h;
     _x = 0;
@@ -9,7 +10,6 @@ Menu::Menu(Elegoo_GFX *display, String name, int16_t h, int16_t w, int8_t textSi
     _textSize =  textSize;
     _visible = visible;
     _location =  location; 
-    _display = display;
     _fillColor = fillColor;
     _borderColor = borderColor;
     _textColor = textColor;     
@@ -55,7 +55,10 @@ void Menu::drawMenuItems(){
 void Menu::press(int16_t x, int16_t y){
     Item::press( x, y);
     if(this->isPressed()){
-        for(int i=0; i < _menuItemIndex; i++)
+        for(int i=0; i < _menuItemIndex; i++){
             _menuitems[i]->press(x,y);
+            if(_menuitems[i]->isPressed())// insure only one item is touched
+            break;
+        }
     }
 }

@@ -28,4 +28,4 @@ bool touchInput:: check()
    return false;
 }
 
-TSPoint touchInput::getPoint(){return _point;}
+TSPoint touchInput::getPoint() const {return _point;}

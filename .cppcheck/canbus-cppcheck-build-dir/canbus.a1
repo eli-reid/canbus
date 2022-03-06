@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2932373156">
+  <FileInfo check="Class">
+<class name="BUFFER" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/include/canbus.h" line="12" col="9" hash="4058537505368851782"/>
+<class name="canBusInterface" file="C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/include/canbus.h" line="17" col="1" hash="6622177461508649197"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="connect" lineNumber="3"/>
+    <functiondecl functionName="disconnect" lineNumber="12"/>
+    <functiondecl functionName="msgCheck" lineNumber="18"/>
+    <functiondecl functionName="msgRead" lineNumber="27"/>
+    <functiondecl functionName="_onMsgRead" lineNumber="32"/>
+    <functiondecl functionName="_onMsgRecv" lineNumber="36"/>
+    <functioncall functionName="CAN_500KBPS"/>
+    <functioncall functionName="MCP_CAN"/>
+    <functioncall functionName="SPI_CS_PIN"/>
+    <functioncall functionName="_onMsgRead"/>
+    <functioncall functionName="_onMsgRecv"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="checkError"/>
+    <functioncall functionName="checkReceive"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="msgRead"/>
+    <functioncall functionName="onConnect"/>
+    <functioncall functionName="onDisconnect"/>
+    <functioncall functionName="onFail"/>
+    <functioncall functionName="onMsgRecv"/>
+    <functioncall functionName="readMsgBuf"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,2 +1,6 @@
+getIndex
 textBox
 textBox
+textBox
+print call:[back,begin,draw,end,flush,getCursorY,length,pop_front,println,push_back,setCursor,setTextColor,setTextSize,setTextWrap,size,substring] noreturn:[getCursorY,push_back]
+clear call:[clear,draw] noreturn:[draw]

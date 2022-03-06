@@ -25,16 +25,8 @@ public:
     touchInput();
     void init(Elegoo_GFX* screen);
     ~touchInput();
-    TSPoint getPoint();
+    TSPoint getPoint() const;
     bool check();
 };
 
-
-
-
-
-
-
-#endif // MACRO
-
-
+#endif

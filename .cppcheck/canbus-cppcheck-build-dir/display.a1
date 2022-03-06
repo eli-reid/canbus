@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="670208359">
+<analyzerinfo checksum="311795577">
   <FileInfo check="CheckUnusedFunctions">
     <functiondecl functionName="screen_init" lineNumber="4"/>
+    <functioncall functionName="A0"/>
+    <functioncall functionName="A1"/>
+    <functioncall functionName="A2"/>
+    <functioncall functionName="A3"/>
+    <functioncall functionName="A4"/>
     <functioncall functionName="BLACK"/>
-    <functioncall functionName="LCD_CD"/>
-    <functioncall functionName="LCD_CS"/>
-    <functioncall functionName="LCD_RD"/>
-    <functioncall functionName="LCD_RESET"/>
-    <functioncall functionName="LCD_WR"/>
     <functioncall functionName="begin"/>
     <functioncall functionName="fillScreen"/>
     <functioncall functionName="identifier"/>

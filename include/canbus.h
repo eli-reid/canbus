@@ -11,7 +11,7 @@ const int SPI_CS_PIN = 9;
 const int CAN_INT_PIN = 2;
 typedef struct BUFFER{
     unsigned char len = 0;
-    unsigned char data[8];
+    unsigned char data[8]={0};
 }buffer_T;
 
 class canBusInterface{
@@ -20,8 +20,8 @@ class canBusInterface{
     bool _connected = false;
     bool _msgFlag = false;
     buffer_T _buffer;
-    void _onMsgRead();
-    void _onMsgRecv();
+    const void _onMsgRead();
+    const void _onMsgRecv();
   public:
     //event methods
     void(*onConnect)(void) = [](void){};
@@ -35,7 +35,7 @@ class canBusInterface{
     void msgCheck();
     void msgRead();
     //getters
-    buffer_T getBuffer(){return _buffer;}
-    bool isConnected(){return _connected;};
+    buffer_T getBuffer() const{return _buffer;}
+    bool isConnected() const{return _connected;};
 };
 #endif

@@ -2,116 +2,59 @@
 <results version="2">
     <cppcheck version="2.6"/>
     <errors>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_init&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_init&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="2"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_visible&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_visible&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/button.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\button.h" line="17"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_w&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_w&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_label&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_label&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/button.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\button.h" line="17"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_h&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_h&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_display&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_display&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/button.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\button.h" line="17"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_x&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_x&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="duplInheritedMember" severity="warning" msg="The class &amp;#039;button&amp;#039; defines member variable with name &amp;#039;_visible&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." verbose="The class &amp;#039;button&amp;#039; defines member variable with name &amp;#039;_visible&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." cwe="398" file0="../lib/UI/button.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\button.h" line="10" info="Derived variable &amp;#039;button::_visible&amp;#039;"/>
+            <location file="..\lib\UI\item.h" line="22" info="Parent variable &amp;#039;Item::_visible&amp;#039;"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_y&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_y&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="duplInheritedMember" severity="warning" msg="The class &amp;#039;button&amp;#039; defines member variable with name &amp;#039;_display&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." verbose="The class &amp;#039;button&amp;#039; defines member variable with name &amp;#039;_display&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." cwe="398" file0="../lib/UI/button.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\button.h" line="12" info="Derived variable &amp;#039;button::_display&amp;#039;"/>
+            <location file="..\lib\UI\item.h" line="24" info="Parent variable &amp;#039;Item::_display&amp;#039;"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_fillColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_fillColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;menuItem::_index&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;menuItem::_index&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\menuItem.h" line="15"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_borderColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_borderColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="duplInheritedMember" severity="warning" msg="The class &amp;#039;menuItem&amp;#039; defines member variable with name &amp;#039;_index&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." verbose="The class &amp;#039;menuItem&amp;#039; defines member variable with name &amp;#039;_index&amp;#039; also defined in its parent class &amp;#039;Item&amp;#039;." cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\menuItem.h" line="12" info="Derived variable &amp;#039;menuItem::_index&amp;#039;"/>
+            <location file="..\lib\UI\item.h" line="20" info="Parent variable &amp;#039;Item::_index&amp;#039;"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_textColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_textColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;textBox::test&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;textBox::test&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\textBox.h" line="23"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_textSize&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_textSize&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;textBox::_maxLines&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;textBox::_maxLines&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\textBox.h" line="23"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_visible&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_visible&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;textBox::_currentCursorY&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;textBox::_currentCursorY&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\textBox.h" line="23"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_label&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_label&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;textBox::_currentCursorX&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;textBox::_currentCursorX&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\textBox.h" line="23"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;button::_display&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;button::_display&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/button.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="9"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Menu::_location&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Menu::_location&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\menu.h" line="19"/>
         </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;drawButton&amp;#039; is never used." verbose="The function &amp;#039;drawButton&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\button.cpp" line="17"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Menu::_menuitems&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Menu::_menuitems&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\menu.h" line="19"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_w&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_w&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Menu::_menuitems&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Menu::_menuitems&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/menu.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\menu.cpp" line="2"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_h&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_h&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;statusBar::_location&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;statusBar::_location&amp;#039; is not initialized in the constructor." inconclusive="true" cwe="398" file0="../lib/UI/statusBar.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\statusBar.h" line="13"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_x&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_x&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;textBox::test&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;textBox::test&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/textbox.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\UI\textbox.cpp" line="3"/>
         </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_y&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_y&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_fillColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_fillColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_borderColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_borderColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_textColor&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_textColor&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_textSize&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_textSize&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_index&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_index&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_visible&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_visible&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_border&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_border&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Item::_display&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Item::_display&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/item.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="3"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;fill&amp;#039; is never used." verbose="The function &amp;#039;fill&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="31"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getName&amp;#039; is never used." verbose="The function &amp;#039;getName&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="67"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;isPressed&amp;#039; is never used." verbose="The function &amp;#039;isPressed&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="57"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;justPressed&amp;#039; is never used." verbose="The function &amp;#039;justPressed&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="59"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;justReleased&amp;#039; is never used." verbose="The function &amp;#039;justReleased&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="61"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setFillColor&amp;#039; is never used." verbose="The function &amp;#039;setFillColor&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="23"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setName&amp;#039; is never used." verbose="The function &amp;#039;setName&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\item.cpp" line="63"/>
-        </error>
-        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Page::items&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Page::items&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/UI/page.cpp" sinceDate="11/14/2021">
-            <location file="..\lib\UI\page.cpp" line="4"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;addItem&amp;#039; is never used." verbose="The function &amp;#039;addItem&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\page.cpp" line="13"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;removeItem&amp;#039; is never used." verbose="The function &amp;#039;removeItem&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\lib\UI\page.cpp" line="23"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;loop&amp;#039; is never used." verbose="The function &amp;#039;loop&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\src\main.cpp" line="18"/>
-        </error>
-        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setup&amp;#039; is never used." verbose="The function &amp;#039;setup&amp;#039; is never used." cwe="561" sinceDate="11/14/2021">
-            <location file="..\src\main.cpp" line="5"/>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;flashDrive::FILE_ERR&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;flashDrive::FILE_ERR&amp;#039; is not initialized in the constructor." cwe="398" file0="../lib/storage/sdcard.cpp" sinceDate="12/31/2021">
+            <location file="..\lib\storage\sdcard.cpp" line="3"/>
         </error>
     </errors>
 </results>

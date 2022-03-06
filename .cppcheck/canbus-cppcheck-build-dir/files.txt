@@ -1,3 +1,4 @@
+canbus.a1::../src/canbus.cpp
 display.a1::../src/display.cpp
 main.a1::../src/main.cpp
 button.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/button.cpp
@@ -7,4 +8,5 @@ menuItem.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/
 page.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/page.cpp
 statusBar.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/statusBar.cpp
 textbox.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/UI/textbox.cpp
+sdcard.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/storage/sdcard.cpp
 touchInput.a1::C:/Users/EliR/OneDrive/Documents/PlatformIO/Projects/canbus/lib/touch/touchInput.cpp

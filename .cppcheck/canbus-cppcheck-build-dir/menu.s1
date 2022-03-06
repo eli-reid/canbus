@@ -1,5 +1,15 @@
+getIndex
+menuItem
+menuItem
+button
+button
+textBox
+textBox
 Menu
 Menu
-Menu
-draw call:[drawRect,fillRect,height] noreturn:[fillRect]
+Menu call:[height]
+draw call:[draw,drawMenuItems] noreturn:[drawMenuItems]
 print call:[height,print,setCursor,setTextColor,setTextSize] noreturn:[print,setCursor]
+addMenuItem call:[getIndex,getWidth,getX,setHeight,setX,setY] noreturn:[setX]
+drawMenuItems call:[draw] noreturn:[draw]
+press call:[isPressed,press]

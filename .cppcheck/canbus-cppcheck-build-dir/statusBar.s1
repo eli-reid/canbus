@@ -1,8 +1,10 @@
+getIndex
 statusBar
 statusBar
-statusBar
-printStatus call:[height,print,println,setCursor,setTextColor,setTextSize] noreturn:[setCursor]
+statusBar call:[height]
+printStatus call:[print,setCursor,setTextColor,setTextSize]
 printStatus call:[printStatus,setStatus] noreturn:[printStatus]
 setStatus call:[clear,println]
-clear call:[fillRect] noreturn:[fillRect]
-draw call:[drawRect,fillRect,height] noreturn:[fillRect]
+clear call:[draw]
+fill call:[fill,printStatus] noreturn:[printStatus]
+fill call:[fill,printStatus] noreturn:[printStatus]

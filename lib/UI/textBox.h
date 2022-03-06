@@ -6,15 +6,10 @@ using namespace std;
 #include <iterator>
 #include <vector>
 #include <list>
-#include <string>
-#include <string.h>
-#include "colors_dfs.h"
 #include "item.h"
-#include <stdio.h>
 class textBox : public Item
 {
 private:
-    int test;
     list<String> _lines;
     uint8_t _maxLines;
     int _maxChar=38;
